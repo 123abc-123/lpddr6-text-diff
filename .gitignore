@@ -1,0 +1,6 @@
+.test-workspace/
+__pycache__/
+*.pyc
+*secret*.json
+*credential*.json
+*token*.json
