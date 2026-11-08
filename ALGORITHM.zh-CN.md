@@ -6,7 +6,7 @@
 
 text encoder（文本向量编码器）用于寻找“这段改写对应旧版哪段”，不是最终判定“规范有没有改变”。不要求第一天就上 encoder：先做词面和结构基线，如果改写、移动的候选召回不足，再测加入 encoder 的增益。不要预设它一定更好。
 
-当前已经运行的是本文第 8 节的标准库合成实验及[真实 JEDEC 的两个 Scope 短片段](REAL_JEDEC_EXAMPLE.zh-CN.md)。尚未运行完整 JEDEC 文档、text encoder 或真实大模型。完整算法是实现规格，不应把实验脚本当成生产 diff 引擎。
+当前已运行本文第 8 节的标准库合成实验、[扩大到 45 例的匹配压力测试](EXPANDED_BENCHMARK.zh-CN.md)、本地 text encoder 排序，以及[真实 JEDEC 的两个 Scope 短片段](REAL_JEDEC_EXAMPLE.zh-CN.md)。尚未运行完整 JEDEC 文档或可复现的真实大模型定量评测。完整算法是实现规格，不应把实验脚本当成生产 diff 引擎。
 
 | 环节 | 首选算法 | 作用 |
 |---|---|---|
