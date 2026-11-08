@@ -1,5 +1,7 @@
 # LPDDR6 JEDEC 正文差异分析方案
 
+**新增扩大测试：[45 例匹配压力测试](EXPANDED_BENCHMARK.zh-CN.md)**：28 个新增合成难例、原 15 例及 2 组真实 JEDEC Scope 短片段，附逐例结果。只评估人工候选池内的对应内容匹配，尚非完整 LPDDR6 文档评测。
+
 **当前推荐实施路线：[正文 diff 选型结论](DECISION.zh-CN.md)**。先实现结构＋词面匹配与可追溯的要求比较；text encoder 是用真实开发集验证后再启用的可选候选通道。
 
 新增 [text encoder 实测与直接模型 diff 评测入口](ENCODER_AND_LLM_TEST.zh-CN.md)：本地 encoder 的逐案例结果、失败样例，以及可接公司 GLM-5.2 接口的评测脚本。GLM-5.2 目前未实测。

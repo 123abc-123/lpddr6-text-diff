@@ -1,0 +1,1586 @@
+{
+  "scope": "15 original synthetic + 28 new synthetic + 2 correlated real Scope pairs; hand-authored tiny candidate pools",
+  "full_document": false,
+  "encoder_run": true,
+  "case_count": 45,
+  "by_category": {
+    "original_synthetic": {
+      "cases": 15,
+      "matched": 14,
+      "lexical_top1_correct": 14,
+      "lexical_accepted_correct": 13,
+      "lexical_false_match_on_empty": 0,
+      "encoder_top1_correct": 13,
+      "encoder_top2_contains_gold": 14
+    },
+    "paraphrase": {
+      "cases": 5,
+      "matched": 5,
+      "lexical_top1_correct": 5,
+      "lexical_accepted_correct": 2,
+      "lexical_false_match_on_empty": 0,
+      "encoder_top1_correct": 5,
+      "encoder_top2_contains_gold": 5
+    },
+    "number": {
+      "cases": 4,
+      "matched": 4,
+      "lexical_top1_correct": 4,
+      "lexical_accepted_correct": 4,
+      "lexical_false_match_on_empty": 0,
+      "encoder_top1_correct": 4,
+      "encoder_top2_contains_gold": 4
+    },
+    "polarity": {
+      "cases": 2,
+      "matched": 2,
+      "lexical_top1_correct": 2,
+      "lexical_accepted_correct": 2,
+      "lexical_false_match_on_empty": 0,
+      "encoder_top1_correct": 2,
+      "encoder_top2_contains_gold": 2
+    },
+    "condition": {
+      "cases": 2,
+      "matched": 2,
+      "lexical_top1_correct": 2,
+      "lexical_accepted_correct": 2,
+      "lexical_false_match_on_empty": 0,
+      "encoder_top1_correct": 2,
+      "encoder_top2_contains_gold": 2
+    },
+    "modality": {
+      "cases": 2,
+      "matched": 2,
+      "lexical_top1_correct": 2,
+      "lexical_accepted_correct": 2,
+      "lexical_false_match_on_empty": 0,
+      "encoder_top1_correct": 2,
+      "encoder_top2_contains_gold": 2
+    },
+    "equivalent": {
+      "cases": 3,
+      "matched": 3,
+      "lexical_top1_correct": 3,
+      "lexical_accepted_correct": 3,
+      "lexical_false_match_on_empty": 0,
+      "encoder_top1_correct": 3,
+      "encoder_top2_contains_gold": 3
+    },
+    "reference": {
+      "cases": 2,
+      "matched": 2,
+      "lexical_top1_correct": 2,
+      "lexical_accepted_correct": 2,
+      "lexical_false_match_on_empty": 0,
+      "encoder_top1_correct": 2,
+      "encoder_top2_contains_gold": 2
+    },
+    "object": {
+      "cases": 2,
+      "matched": 2,
+      "lexical_top1_correct": 2,
+      "lexical_accepted_correct": 2,
+      "lexical_false_match_on_empty": 0,
+      "encoder_top1_correct": 2,
+      "encoder_top2_contains_gold": 2
+    },
+    "move": {
+      "cases": 1,
+      "matched": 1,
+      "lexical_top1_correct": 1,
+      "lexical_accepted_correct": 1,
+      "lexical_false_match_on_empty": 0,
+      "encoder_top1_correct": 1,
+      "encoder_top2_contains_gold": 1
+    },
+    "format": {
+      "cases": 1,
+      "matched": 1,
+      "lexical_top1_correct": 1,
+      "lexical_accepted_correct": 1,
+      "lexical_false_match_on_empty": 0,
+      "encoder_top1_correct": 1,
+      "encoder_top2_contains_gold": 1
+    },
+    "deletion": {
+      "cases": 1,
+      "matched": 0,
+      "lexical_top1_correct": 0,
+      "lexical_accepted_correct": 0,
+      "lexical_false_match_on_empty": 0,
+      "encoder_top1_correct": 0,
+      "encoder_top2_contains_gold": 0
+    },
+    "duplicate": {
+      "cases": 1,
+      "matched": 1,
+      "lexical_top1_correct": 0,
+      "lexical_accepted_correct": 0,
+      "lexical_false_match_on_empty": 0,
+      "encoder_top1_correct": 0,
+      "encoder_top2_contains_gold": 1
+    },
+    "split": {
+      "cases": 2,
+      "matched": 2,
+      "lexical_top1_correct": 2,
+      "lexical_accepted_correct": 2,
+      "lexical_false_match_on_empty": 0,
+      "encoder_top1_correct": 2,
+      "encoder_top2_contains_gold": 2
+    },
+    "real_scope": {
+      "cases": 2,
+      "matched": 2,
+      "lexical_top1_correct": 2,
+      "lexical_accepted_correct": 2,
+      "lexical_false_match_on_empty": 0,
+      "encoder_top1_correct": 2,
+      "encoder_top2_contains_gold": 2
+    }
+  },
+  "details": [
+    {
+      "case": "unchanged",
+      "category": "original_synthetic",
+      "gold_ids": [
+        "target"
+      ],
+      "lexical_top1": {
+        "ids": [
+          "target"
+        ],
+        "lexical_score": 1.0,
+        "encoder_cosine": 1.0
+      },
+      "lexical_selected": [
+        "target"
+      ],
+      "encoder_top1": {
+        "ids": [
+          "target"
+        ],
+        "lexical_score": 1.0,
+        "encoder_cosine": 1.0
+      },
+      "encoder_top2_ids": [
+        [
+          "target"
+        ],
+        [
+          "other"
+        ]
+      ]
+    },
+    {
+      "case": "line_wrap",
+      "category": "original_synthetic",
+      "gold_ids": [
+        "target"
+      ],
+      "lexical_top1": {
+        "ids": [
+          "target"
+        ],
+        "lexical_score": 1.0,
+        "encoder_cosine": 1.0
+      },
+      "lexical_selected": [
+        "target"
+      ],
+      "encoder_top1": {
+        "ids": [
+          "target"
+        ],
+        "lexical_score": 1.0,
+        "encoder_cosine": 1.0
+      },
+      "encoder_top2_ids": [
+        [
+          "target"
+        ],
+        [
+          "other"
+        ]
+      ]
+    },
+    {
+      "case": "paraphrase",
+      "category": "original_synthetic",
+      "gold_ids": [
+        "target"
+      ],
+      "lexical_top1": {
+        "ids": [
+          "target"
+        ],
+        "lexical_score": 0.46154,
+        "encoder_cosine": 0.92097
+      },
+      "lexical_selected": [],
+      "encoder_top1": {
+        "ids": [
+          "target"
+        ],
+        "lexical_score": 0.46154,
+        "encoder_cosine": 0.92097
+      },
+      "encoder_top2_ids": [
+        [
+          "target"
+        ],
+        [
+          "other"
+        ]
+      ]
+    },
+    {
+      "case": "numeric",
+      "category": "original_synthetic",
+      "gold_ids": [
+        "target"
+      ],
+      "lexical_top1": {
+        "ids": [
+          "target"
+        ],
+        "lexical_score": 0.93636,
+        "encoder_cosine": 0.91831
+      },
+      "lexical_selected": [
+        "target"
+      ],
+      "encoder_top1": {
+        "ids": [
+          "target"
+        ],
+        "lexical_score": 0.93636,
+        "encoder_cosine": 0.91831
+      },
+      "encoder_top2_ids": [
+        [
+          "target"
+        ],
+        [
+          "other"
+        ]
+      ]
+    },
+    {
+      "case": "negation",
+      "category": "original_synthetic",
+      "gold_ids": [
+        "target"
+      ],
+      "lexical_top1": {
+        "ids": [
+          "target"
+        ],
+        "lexical_score": 0.94615,
+        "encoder_cosine": 0.87253
+      },
+      "lexical_selected": [
+        "target"
+      ],
+      "encoder_top1": {
+        "ids": [
+          "target"
+        ],
+        "lexical_score": 0.94615,
+        "encoder_cosine": 0.87253
+      },
+      "encoder_top2_ids": [
+        [
+          "target"
+        ],
+        [
+          "other"
+        ]
+      ]
+    },
+    {
+      "case": "boundary",
+      "category": "original_synthetic",
+      "gold_ids": [
+        "target"
+      ],
+      "lexical_top1": {
+        "ids": [
+          "target"
+        ],
+        "lexical_score": 0.87273,
+        "encoder_cosine": 0.98793
+      },
+      "lexical_selected": [
+        "target"
+      ],
+      "encoder_top1": {
+        "ids": [
+          "target"
+        ],
+        "lexical_score": 0.87273,
+        "encoder_cosine": 0.98793
+      },
+      "encoder_top2_ids": [
+        [
+          "target"
+        ],
+        [
+          "other"
+        ]
+      ]
+    },
+    {
+      "case": "modality",
+      "category": "original_synthetic",
+      "gold_ids": [
+        "target"
+      ],
+      "lexical_top1": {
+        "ids": [
+          "target"
+        ],
+        "lexical_score": 0.93636,
+        "encoder_cosine": 0.986
+      },
+      "lexical_selected": [
+        "target"
+      ],
+      "encoder_top1": {
+        "ids": [
+          "target"
+        ],
+        "lexical_score": 0.93636,
+        "encoder_cosine": 0.986
+      },
+      "encoder_top2_ids": [
+        [
+          "target"
+        ],
+        [
+          "other"
+        ]
+      ]
+    },
+    {
+      "case": "condition",
+      "category": "original_synthetic",
+      "gold_ids": [
+        "target"
+      ],
+      "lexical_top1": {
+        "ids": [
+          "target"
+        ],
+        "lexical_score": 0.95,
+        "encoder_cosine": 0.97863
+      },
+      "lexical_selected": [
+        "target"
+      ],
+      "encoder_top1": {
+        "ids": [
+          "target"
+        ],
+        "lexical_score": 0.95,
+        "encoder_cosine": 0.97863
+      },
+      "encoder_top2_ids": [
+        [
+          "target"
+        ],
+        [
+          "other"
+        ]
+      ]
+    },
+    {
+      "case": "unit_equivalence",
+      "category": "original_synthetic",
+      "gold_ids": [
+        "target"
+      ],
+      "lexical_top1": {
+        "ids": [
+          "target"
+        ],
+        "lexical_score": 0.87273,
+        "encoder_cosine": 0.89875
+      },
+      "lexical_selected": [
+        "target"
+      ],
+      "encoder_top1": {
+        "ids": [
+          "target"
+        ],
+        "lexical_score": 0.87273,
+        "encoder_cosine": 0.89875
+      },
+      "encoder_top2_ids": [
+        [
+          "target"
+        ],
+        [
+          "other"
+        ]
+      ]
+    },
+    {
+      "case": "renumber",
+      "category": "original_synthetic",
+      "gold_ids": [
+        "target"
+      ],
+      "lexical_top1": {
+        "ids": [
+          "target"
+        ],
+        "lexical_score": 0.92222,
+        "encoder_cosine": 0.94914
+      },
+      "lexical_selected": [
+        "target"
+      ],
+      "encoder_top1": {
+        "ids": [
+          "target"
+        ],
+        "lexical_score": 0.92222,
+        "encoder_cosine": 0.94914
+      },
+      "encoder_top2_ids": [
+        [
+          "target"
+        ],
+        [
+          "other"
+        ]
+      ]
+    },
+    {
+      "case": "inherited_condition",
+      "category": "original_synthetic",
+      "gold_ids": [
+        "target"
+      ],
+      "lexical_top1": {
+        "ids": [
+          "target"
+        ],
+        "lexical_score": 1.0,
+        "encoder_cosine": 1.0
+      },
+      "lexical_selected": [
+        "target"
+      ],
+      "encoder_top1": {
+        "ids": [
+          "target"
+        ],
+        "lexical_score": 1.0,
+        "encoder_cosine": 1.0
+      },
+      "encoder_top2_ids": [
+        [
+          "target"
+        ],
+        [
+          "other"
+        ]
+      ]
+    },
+    {
+      "case": "repeated_boilerplate",
+      "category": "original_synthetic",
+      "gold_ids": [
+        "target"
+      ],
+      "lexical_top1": {
+        "ids": [
+          "target"
+        ],
+        "lexical_score": 0.73077,
+        "encoder_cosine": 0.95937
+      },
+      "lexical_selected": [
+        "target"
+      ],
+      "encoder_top1": {
+        "ids": [
+          "other"
+        ],
+        "lexical_score": 0.7,
+        "encoder_cosine": 1.0
+      },
+      "encoder_top2_ids": [
+        [
+          "other"
+        ],
+        [
+          "target"
+        ]
+      ]
+    },
+    {
+      "case": "section_move",
+      "category": "original_synthetic",
+      "gold_ids": [
+        "target"
+      ],
+      "lexical_top1": {
+        "ids": [
+          "target"
+        ],
+        "lexical_score": 0.9,
+        "encoder_cosine": 1.0
+      },
+      "lexical_selected": [
+        "target"
+      ],
+      "encoder_top1": {
+        "ids": [
+          "target"
+        ],
+        "lexical_score": 0.9,
+        "encoder_cosine": 1.0
+      },
+      "encoder_top2_ids": [
+        [
+          "target"
+        ],
+        [
+          "other"
+        ]
+      ]
+    },
+    {
+      "case": "split",
+      "category": "original_synthetic",
+      "gold_ids": [
+        "a",
+        "b"
+      ],
+      "lexical_top1": {
+        "ids": [
+          "a",
+          "b"
+        ],
+        "lexical_score": 0.98,
+        "encoder_cosine": 1.0
+      },
+      "lexical_selected": [
+        "a",
+        "b"
+      ],
+      "encoder_top1": {
+        "ids": [
+          "a",
+          "b"
+        ],
+        "lexical_score": 0.98,
+        "encoder_cosine": 1.0
+      },
+      "encoder_top2_ids": [
+        [
+          "a",
+          "b"
+        ],
+        [
+          "a"
+        ]
+      ]
+    },
+    {
+      "case": "deletion",
+      "category": "original_synthetic",
+      "gold_ids": [],
+      "lexical_top1": {
+        "ids": [
+          "other"
+        ],
+        "lexical_score": 0.23333,
+        "encoder_cosine": 0.66372
+      },
+      "lexical_selected": [],
+      "encoder_top1": {
+        "ids": [
+          "other"
+        ],
+        "lexical_score": 0.23333,
+        "encoder_cosine": 0.66372
+      },
+      "encoder_top2_ids": [
+        [
+          "other"
+        ]
+      ]
+    },
+    {
+      "case": "extra_refresh_paraphrase",
+      "category": "paraphrase",
+      "gold_ids": [
+        "target"
+      ],
+      "lexical_top1": {
+        "ids": [
+          "target"
+        ],
+        "lexical_score": 0.46471,
+        "encoder_cosine": 0.87033
+      },
+      "lexical_selected": [],
+      "encoder_top1": {
+        "ids": [
+          "target"
+        ],
+        "lexical_score": 0.46471,
+        "encoder_cosine": 0.87033
+      },
+      "encoder_top2_ids": [
+        [
+          "target"
+        ],
+        [
+          "other"
+        ]
+      ]
+    },
+    {
+      "case": "extra_cke_paraphrase",
+      "category": "paraphrase",
+      "gold_ids": [
+        "target"
+      ],
+      "lexical_top1": {
+        "ids": [
+          "target"
+        ],
+        "lexical_score": 0.61818,
+        "encoder_cosine": 0.93506
+      },
+      "lexical_selected": [
+        "target"
+      ],
+      "encoder_top1": {
+        "ids": [
+          "target"
+        ],
+        "lexical_score": 0.61818,
+        "encoder_cosine": 0.93506
+      },
+      "encoder_top2_ids": [
+        [
+          "target"
+        ],
+        [
+          "other"
+        ]
+      ]
+    },
+    {
+      "case": "extra_voltage_paraphrase",
+      "category": "paraphrase",
+      "gold_ids": [
+        "target"
+      ],
+      "lexical_top1": {
+        "ids": [
+          "target"
+        ],
+        "lexical_score": 0.46471,
+        "encoder_cosine": 0.86024
+      },
+      "lexical_selected": [],
+      "encoder_top1": {
+        "ids": [
+          "target"
+        ],
+        "lexical_score": 0.46471,
+        "encoder_cosine": 0.86024
+      },
+      "encoder_top2_ids": [
+        [
+          "target"
+        ],
+        [
+          "other"
+        ]
+      ]
+    },
+    {
+      "case": "extra_mode_register_paraphrase",
+      "category": "paraphrase",
+      "gold_ids": [
+        "target"
+      ],
+      "lexical_top1": {
+        "ids": [
+          "target"
+        ],
+        "lexical_score": 0.42727,
+        "encoder_cosine": 0.92014
+      },
+      "lexical_selected": [],
+      "encoder_top1": {
+        "ids": [
+          "target"
+        ],
+        "lexical_score": 0.42727,
+        "encoder_cosine": 0.92014
+      },
+      "encoder_top2_ids": [
+        [
+          "target"
+        ],
+        [
+          "other"
+        ]
+      ]
+    },
+    {
+      "case": "extra_numeric_increase",
+      "category": "number",
+      "gold_ids": [
+        "target"
+      ],
+      "lexical_top1": {
+        "ids": [
+          "target"
+        ],
+        "lexical_score": 0.93636,
+        "encoder_cosine": 0.88753
+      },
+      "lexical_selected": [
+        "target"
+      ],
+      "encoder_top1": {
+        "ids": [
+          "target"
+        ],
+        "lexical_score": 0.93636,
+        "encoder_cosine": 0.88753
+      },
+      "encoder_top2_ids": [
+        [
+          "target"
+        ],
+        [
+          "other"
+        ]
+      ]
+    },
+    {
+      "case": "extra_numeric_decrease",
+      "category": "number",
+      "gold_ids": [
+        "target"
+      ],
+      "lexical_top1": {
+        "ids": [
+          "target"
+        ],
+        "lexical_score": 0.9125,
+        "encoder_cosine": 0.88186
+      },
+      "lexical_selected": [
+        "target"
+      ],
+      "encoder_top1": {
+        "ids": [
+          "target"
+        ],
+        "lexical_score": 0.9125,
+        "encoder_cosine": 0.88186
+      },
+      "encoder_top2_ids": [
+        [
+          "target"
+        ],
+        [
+          "other"
+        ]
+      ]
+    },
+    {
+      "case": "extra_range_lower",
+      "category": "number",
+      "gold_ids": [
+        "target"
+      ],
+      "lexical_top1": {
+        "ids": [
+          "target"
+        ],
+        "lexical_score": 0.93636,
+        "encoder_cosine": 0.92303
+      },
+      "lexical_selected": [
+        "target"
+      ],
+      "encoder_top1": {
+        "ids": [
+          "target"
+        ],
+        "lexical_score": 0.93636,
+        "encoder_cosine": 0.92303
+      },
+      "encoder_top2_ids": [
+        [
+          "target"
+        ],
+        [
+          "other"
+        ]
+      ]
+    },
+    {
+      "case": "extra_range_upper",
+      "category": "number",
+      "gold_ids": [
+        "target"
+      ],
+      "lexical_top1": {
+        "ids": [
+          "target"
+        ],
+        "lexical_score": 0.93636,
+        "encoder_cosine": 0.92571
+      },
+      "lexical_selected": [
+        "target"
+      ],
+      "encoder_top1": {
+        "ids": [
+          "target"
+        ],
+        "lexical_score": 0.93636,
+        "encoder_cosine": 0.92571
+      },
+      "encoder_top2_ids": [
+        [
+          "target"
+        ],
+        [
+          "other"
+        ]
+      ]
+    },
+    {
+      "case": "extra_not_added",
+      "category": "polarity",
+      "gold_ids": [
+        "target"
+      ],
+      "lexical_top1": {
+        "ids": [
+          "target"
+        ],
+        "lexical_score": 0.95882,
+        "encoder_cosine": 0.93932
+      },
+      "lexical_selected": [
+        "target"
+      ],
+      "encoder_top1": {
+        "ids": [
+          "target"
+        ],
+        "lexical_score": 0.95882,
+        "encoder_cosine": 0.93932
+      },
+      "encoder_top2_ids": [
+        [
+          "target"
+        ],
+        [
+          "other"
+        ]
+      ]
+    },
+    {
+      "case": "extra_not_removed",
+      "category": "polarity",
+      "gold_ids": [
+        "target"
+      ],
+      "lexical_top1": {
+        "ids": [
+          "target"
+        ],
+        "lexical_score": 0.95882,
+        "encoder_cosine": 0.87963
+      },
+      "lexical_selected": [
+        "target"
+      ],
+      "encoder_top1": {
+        "ids": [
+          "target"
+        ],
+        "lexical_score": 0.95882,
+        "encoder_cosine": 0.87963
+      },
+      "encoder_top2_ids": [
+        [
+          "target"
+        ],
+        [
+          "other"
+        ]
+      ]
+    },
+    {
+      "case": "extra_only_added",
+      "category": "condition",
+      "gold_ids": [
+        "target"
+      ],
+      "lexical_top1": {
+        "ids": [
+          "target"
+        ],
+        "lexical_score": 0.95333,
+        "encoder_cosine": 0.90651
+      },
+      "lexical_selected": [
+        "target"
+      ],
+      "encoder_top1": {
+        "ids": [
+          "target"
+        ],
+        "lexical_score": 0.95333,
+        "encoder_cosine": 0.90651
+      },
+      "encoder_top2_ids": [
+        [
+          "target"
+        ],
+        [
+          "other"
+        ]
+      ]
+    },
+    {
+      "case": "extra_unless_added",
+      "category": "condition",
+      "gold_ids": [
+        "target"
+      ],
+      "lexical_top1": {
+        "ids": [
+          "target"
+        ],
+        "lexical_score": 0.86,
+        "encoder_cosine": 0.92864
+      },
+      "lexical_selected": [
+        "target"
+      ],
+      "encoder_top1": {
+        "ids": [
+          "target"
+        ],
+        "lexical_score": 0.86,
+        "encoder_cosine": 0.92864
+      },
+      "encoder_top2_ids": [
+        [
+          "target"
+        ],
+        [
+          "other"
+        ]
+      ]
+    },
+    {
+      "case": "extra_shall_to_should",
+      "category": "modality",
+      "gold_ids": [
+        "target"
+      ],
+      "lexical_top1": {
+        "ids": [
+          "target"
+        ],
+        "lexical_score": 0.88333,
+        "encoder_cosine": 0.98209
+      },
+      "lexical_selected": [
+        "target"
+      ],
+      "encoder_top1": {
+        "ids": [
+          "target"
+        ],
+        "lexical_score": 0.88333,
+        "encoder_cosine": 0.98209
+      },
+      "encoder_top2_ids": [
+        [
+          "target"
+        ],
+        [
+          "other"
+        ]
+      ]
+    },
+    {
+      "case": "extra_shall_to_may",
+      "category": "modality",
+      "gold_ids": [
+        "target"
+      ],
+      "lexical_top1": {
+        "ids": [
+          "target"
+        ],
+        "lexical_score": 0.9,
+        "encoder_cosine": 0.97877
+      },
+      "lexical_selected": [
+        "target"
+      ],
+      "encoder_top1": {
+        "ids": [
+          "target"
+        ],
+        "lexical_score": 0.9,
+        "encoder_cosine": 0.97877
+      },
+      "encoder_top2_ids": [
+        [
+          "target"
+        ],
+        [
+          "other"
+        ]
+      ]
+    },
+    {
+      "case": "extra_unit_1000ps",
+      "category": "equivalent",
+      "gold_ids": [
+        "target"
+      ],
+      "lexical_top1": {
+        "ids": [
+          "target"
+        ],
+        "lexical_score": 0.8,
+        "encoder_cosine": 0.88756
+      },
+      "lexical_selected": [
+        "target"
+      ],
+      "encoder_top1": {
+        "ids": [
+          "target"
+        ],
+        "lexical_score": 0.8,
+        "encoder_cosine": 0.88756
+      },
+      "encoder_top2_ids": [
+        [
+          "target"
+        ],
+        [
+          "other"
+        ]
+      ]
+    },
+    {
+      "case": "extra_symbol_alias",
+      "category": "equivalent",
+      "gold_ids": [
+        "target"
+      ],
+      "lexical_top1": {
+        "ids": [
+          "target"
+        ],
+        "lexical_score": 0.68889,
+        "encoder_cosine": 0.93457
+      },
+      "lexical_selected": [
+        "target"
+      ],
+      "encoder_top1": {
+        "ids": [
+          "target"
+        ],
+        "lexical_score": 0.68889,
+        "encoder_cosine": 0.93457
+      },
+      "encoder_top2_ids": [
+        [
+          "target"
+        ],
+        [
+          "other"
+        ]
+      ]
+    },
+    {
+      "case": "extra_sentence_reorder",
+      "category": "equivalent",
+      "gold_ids": [
+        "target"
+      ],
+      "lexical_top1": {
+        "ids": [
+          "target"
+        ],
+        "lexical_score": 0.51538,
+        "encoder_cosine": 0.92253
+      },
+      "lexical_selected": [
+        "target"
+      ],
+      "encoder_top1": {
+        "ids": [
+          "target"
+        ],
+        "lexical_score": 0.51538,
+        "encoder_cosine": 0.92253
+      },
+      "encoder_top2_ids": [
+        [
+          "target"
+        ],
+        [
+          "other"
+        ]
+      ]
+    },
+    {
+      "case": "extra_reference_renumber",
+      "category": "reference",
+      "gold_ids": [
+        "target"
+      ],
+      "lexical_top1": {
+        "ids": [
+          "target"
+        ],
+        "lexical_score": 0.9125,
+        "encoder_cosine": 0.89327
+      },
+      "lexical_selected": [
+        "target"
+      ],
+      "encoder_top1": {
+        "ids": [
+          "target"
+        ],
+        "lexical_score": 0.9125,
+        "encoder_cosine": 0.89327
+      },
+      "encoder_top2_ids": [
+        [
+          "target"
+        ],
+        [
+          "other"
+        ]
+      ]
+    },
+    {
+      "case": "extra_reference_changed",
+      "category": "reference",
+      "gold_ids": [
+        "target"
+      ],
+      "lexical_top1": {
+        "ids": [
+          "target"
+        ],
+        "lexical_score": 0.9125,
+        "encoder_cosine": 0.91518
+      },
+      "lexical_selected": [
+        "target"
+      ],
+      "encoder_top1": {
+        "ids": [
+          "target"
+        ],
+        "lexical_score": 0.9125,
+        "encoder_cosine": 0.91518
+      },
+      "encoder_top2_ids": [
+        [
+          "target"
+        ],
+        [
+          "other"
+        ]
+      ]
+    },
+    {
+      "case": "extra_object_swap",
+      "category": "object",
+      "gold_ids": [
+        "target"
+      ],
+      "lexical_top1": {
+        "ids": [
+          "target"
+        ],
+        "lexical_score": 0.92222,
+        "encoder_cosine": 0.91029
+      },
+      "lexical_selected": [
+        "target"
+      ],
+      "encoder_top1": {
+        "ids": [
+          "target"
+        ],
+        "lexical_score": 0.92222,
+        "encoder_cosine": 0.91029
+      },
+      "encoder_top2_ids": [
+        [
+          "target"
+        ],
+        [
+          "other"
+        ]
+      ]
+    },
+    {
+      "case": "extra_subject_swap",
+      "category": "object",
+      "gold_ids": [
+        "target"
+      ],
+      "lexical_top1": {
+        "ids": [
+          "target"
+        ],
+        "lexical_score": 0.88333,
+        "encoder_cosine": 0.94789
+      },
+      "lexical_selected": [
+        "target"
+      ],
+      "encoder_top1": {
+        "ids": [
+          "target"
+        ],
+        "lexical_score": 0.88333,
+        "encoder_cosine": 0.94789
+      },
+      "encoder_top2_ids": [
+        [
+          "target"
+        ],
+        [
+          "other"
+        ]
+      ]
+    },
+    {
+      "case": "extra_moved_section",
+      "category": "move",
+      "gold_ids": [
+        "target"
+      ],
+      "lexical_top1": {
+        "ids": [
+          "target"
+        ],
+        "lexical_score": 0.9,
+        "encoder_cosine": 1.0
+      },
+      "lexical_selected": [
+        "target"
+      ],
+      "encoder_top1": {
+        "ids": [
+          "target"
+        ],
+        "lexical_score": 0.9,
+        "encoder_cosine": 1.0
+      },
+      "encoder_top2_ids": [
+        [
+          "target"
+        ],
+        [
+          "other"
+        ]
+      ]
+    },
+    {
+      "case": "extra_format_only",
+      "category": "format",
+      "gold_ids": [
+        "target"
+      ],
+      "lexical_top1": {
+        "ids": [
+          "target"
+        ],
+        "lexical_score": 1.0,
+        "encoder_cosine": 1.0
+      },
+      "lexical_selected": [
+        "target"
+      ],
+      "encoder_top1": {
+        "ids": [
+          "target"
+        ],
+        "lexical_score": 1.0,
+        "encoder_cosine": 1.0
+      },
+      "encoder_top2_ids": [
+        [
+          "target"
+        ],
+        [
+          "other"
+        ]
+      ]
+    },
+    {
+      "case": "extra_list_to_sentence",
+      "category": "paraphrase",
+      "gold_ids": [
+        "target"
+      ],
+      "lexical_top1": {
+        "ids": [
+          "target"
+        ],
+        "lexical_score": 0.59474,
+        "encoder_cosine": 0.89573
+      },
+      "lexical_selected": [
+        "target"
+      ],
+      "encoder_top1": {
+        "ids": [
+          "target"
+        ],
+        "lexical_score": 0.59474,
+        "encoder_cosine": 0.89573
+      },
+      "encoder_top2_ids": [
+        [
+          "target"
+        ],
+        [
+          "other"
+        ]
+      ]
+    },
+    {
+      "case": "extra_zero_distractor",
+      "category": "deletion",
+      "gold_ids": [],
+      "lexical_top1": {
+        "ids": [
+          "other"
+        ],
+        "lexical_score": 0.43077,
+        "encoder_cosine": 0.6976
+      },
+      "lexical_selected": [],
+      "encoder_top1": {
+        "ids": [
+          "other"
+        ],
+        "lexical_score": 0.43077,
+        "encoder_cosine": 0.6976
+      },
+      "encoder_top2_ids": [
+        [
+          "other"
+        ]
+      ]
+    },
+    {
+      "case": "extra_duplicate_template",
+      "category": "duplicate",
+      "gold_ids": [
+        "target"
+      ],
+      "lexical_top1": {
+        "ids": [
+          "other"
+        ],
+        "lexical_score": 0.7,
+        "encoder_cosine": 1.0
+      },
+      "lexical_selected": [
+        "other"
+      ],
+      "encoder_top1": {
+        "ids": [
+          "other"
+        ],
+        "lexical_score": 0.7,
+        "encoder_cosine": 1.0
+      },
+      "encoder_top2_ids": [
+        [
+          "other"
+        ],
+        [
+          "target"
+        ]
+      ]
+    },
+    {
+      "case": "extra_split_three",
+      "category": "split",
+      "gold_ids": [
+        "a",
+        "b",
+        "c"
+      ],
+      "lexical_top1": {
+        "ids": [
+          "a",
+          "b",
+          "c"
+        ],
+        "lexical_score": 0.96,
+        "encoder_cosine": 1.0
+      },
+      "lexical_selected": [
+        "a",
+        "b",
+        "c"
+      ],
+      "encoder_top1": {
+        "ids": [
+          "a",
+          "b",
+          "c"
+        ],
+        "lexical_score": 0.96,
+        "encoder_cosine": 1.0
+      },
+      "encoder_top2_ids": [
+        [
+          "a",
+          "b",
+          "c"
+        ],
+        [
+          "a",
+          "b"
+        ]
+      ]
+    },
+    {
+      "case": "extra_split_two",
+      "category": "split",
+      "gold_ids": [
+        "a",
+        "b"
+      ],
+      "lexical_top1": {
+        "ids": [
+          "a",
+          "b"
+        ],
+        "lexical_score": 0.98,
+        "encoder_cosine": 1.0
+      },
+      "lexical_selected": [
+        "a",
+        "b"
+      ],
+      "encoder_top1": {
+        "ids": [
+          "a",
+          "b"
+        ],
+        "lexical_score": 0.98,
+        "encoder_cosine": 1.0
+      },
+      "encoder_top2_ids": [
+        [
+          "a",
+          "b"
+        ],
+        [
+          "b"
+        ]
+      ]
+    },
+    {
+      "case": "real_D-scope-dual",
+      "category": "real_scope",
+      "gold_ids": [
+        "E-scope-dual"
+      ],
+      "lexical_top1": {
+        "ids": [
+          "E-scope-dual"
+        ],
+        "lexical_score": 0.93636,
+        "encoder_cosine": 0.98213
+      },
+      "lexical_selected": [
+        "E-scope-dual"
+      ],
+      "encoder_top1": {
+        "ids": [
+          "E-scope-dual"
+        ],
+        "lexical_score": 0.93636,
+        "encoder_cosine": 0.98213
+      },
+      "encoder_top2_ids": [
+        [
+          "E-scope-dual"
+        ],
+        [
+          "E-scope-dual",
+          "E-scope-single"
+        ]
+      ]
+    },
+    {
+      "case": "real_D-scope-single",
+      "category": "real_scope",
+      "gold_ids": [
+        "E-scope-single"
+      ],
+      "lexical_top1": {
+        "ids": [
+          "E-scope-single"
+        ],
+        "lexical_score": 0.93,
+        "encoder_cosine": 0.97272
+      },
+      "lexical_selected": [
+        "E-scope-single"
+      ],
+      "encoder_top1": {
+        "ids": [
+          "E-scope-single"
+        ],
+        "lexical_score": 0.93,
+        "encoder_cosine": 0.97272
+      },
+      "encoder_top2_ids": [
+        [
+          "E-scope-single"
+        ],
+        [
+          "E-scope-dual",
+          "E-scope-single"
+        ]
+      ]
+    }
+  ]
+}

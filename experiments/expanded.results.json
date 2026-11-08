@@ -1,0 +1,861 @@
+{
+  "scope": "15 original synthetic + 28 new synthetic + 2 correlated real Scope pairs; hand-authored tiny candidate pools",
+  "full_document": false,
+  "encoder_run": false,
+  "case_count": 45,
+  "by_category": {
+    "original_synthetic": {
+      "cases": 15,
+      "matched": 14,
+      "lexical_top1_correct": 14,
+      "lexical_accepted_correct": 13,
+      "lexical_false_match_on_empty": 0,
+      "encoder_top1_correct": 0,
+      "encoder_top2_contains_gold": 0
+    },
+    "paraphrase": {
+      "cases": 5,
+      "matched": 5,
+      "lexical_top1_correct": 5,
+      "lexical_accepted_correct": 2,
+      "lexical_false_match_on_empty": 0,
+      "encoder_top1_correct": 0,
+      "encoder_top2_contains_gold": 0
+    },
+    "number": {
+      "cases": 4,
+      "matched": 4,
+      "lexical_top1_correct": 4,
+      "lexical_accepted_correct": 4,
+      "lexical_false_match_on_empty": 0,
+      "encoder_top1_correct": 0,
+      "encoder_top2_contains_gold": 0
+    },
+    "polarity": {
+      "cases": 2,
+      "matched": 2,
+      "lexical_top1_correct": 2,
+      "lexical_accepted_correct": 2,
+      "lexical_false_match_on_empty": 0,
+      "encoder_top1_correct": 0,
+      "encoder_top2_contains_gold": 0
+    },
+    "condition": {
+      "cases": 2,
+      "matched": 2,
+      "lexical_top1_correct": 2,
+      "lexical_accepted_correct": 2,
+      "lexical_false_match_on_empty": 0,
+      "encoder_top1_correct": 0,
+      "encoder_top2_contains_gold": 0
+    },
+    "modality": {
+      "cases": 2,
+      "matched": 2,
+      "lexical_top1_correct": 2,
+      "lexical_accepted_correct": 2,
+      "lexical_false_match_on_empty": 0,
+      "encoder_top1_correct": 0,
+      "encoder_top2_contains_gold": 0
+    },
+    "equivalent": {
+      "cases": 3,
+      "matched": 3,
+      "lexical_top1_correct": 3,
+      "lexical_accepted_correct": 3,
+      "lexical_false_match_on_empty": 0,
+      "encoder_top1_correct": 0,
+      "encoder_top2_contains_gold": 0
+    },
+    "reference": {
+      "cases": 2,
+      "matched": 2,
+      "lexical_top1_correct": 2,
+      "lexical_accepted_correct": 2,
+      "lexical_false_match_on_empty": 0,
+      "encoder_top1_correct": 0,
+      "encoder_top2_contains_gold": 0
+    },
+    "object": {
+      "cases": 2,
+      "matched": 2,
+      "lexical_top1_correct": 2,
+      "lexical_accepted_correct": 2,
+      "lexical_false_match_on_empty": 0,
+      "encoder_top1_correct": 0,
+      "encoder_top2_contains_gold": 0
+    },
+    "move": {
+      "cases": 1,
+      "matched": 1,
+      "lexical_top1_correct": 1,
+      "lexical_accepted_correct": 1,
+      "lexical_false_match_on_empty": 0,
+      "encoder_top1_correct": 0,
+      "encoder_top2_contains_gold": 0
+    },
+    "format": {
+      "cases": 1,
+      "matched": 1,
+      "lexical_top1_correct": 1,
+      "lexical_accepted_correct": 1,
+      "lexical_false_match_on_empty": 0,
+      "encoder_top1_correct": 0,
+      "encoder_top2_contains_gold": 0
+    },
+    "deletion": {
+      "cases": 1,
+      "matched": 0,
+      "lexical_top1_correct": 0,
+      "lexical_accepted_correct": 0,
+      "lexical_false_match_on_empty": 0,
+      "encoder_top1_correct": 0,
+      "encoder_top2_contains_gold": 0
+    },
+    "duplicate": {
+      "cases": 1,
+      "matched": 1,
+      "lexical_top1_correct": 0,
+      "lexical_accepted_correct": 0,
+      "lexical_false_match_on_empty": 0,
+      "encoder_top1_correct": 0,
+      "encoder_top2_contains_gold": 0
+    },
+    "split": {
+      "cases": 2,
+      "matched": 2,
+      "lexical_top1_correct": 2,
+      "lexical_accepted_correct": 2,
+      "lexical_false_match_on_empty": 0,
+      "encoder_top1_correct": 0,
+      "encoder_top2_contains_gold": 0
+    },
+    "real_scope": {
+      "cases": 2,
+      "matched": 2,
+      "lexical_top1_correct": 2,
+      "lexical_accepted_correct": 2,
+      "lexical_false_match_on_empty": 0,
+      "encoder_top1_correct": 0,
+      "encoder_top2_contains_gold": 0
+    }
+  },
+  "details": [
+    {
+      "case": "unchanged",
+      "category": "original_synthetic",
+      "gold_ids": [
+        "target"
+      ],
+      "lexical_top1": {
+        "ids": [
+          "target"
+        ],
+        "lexical_score": 1.0
+      },
+      "lexical_selected": [
+        "target"
+      ]
+    },
+    {
+      "case": "line_wrap",
+      "category": "original_synthetic",
+      "gold_ids": [
+        "target"
+      ],
+      "lexical_top1": {
+        "ids": [
+          "target"
+        ],
+        "lexical_score": 1.0
+      },
+      "lexical_selected": [
+        "target"
+      ]
+    },
+    {
+      "case": "paraphrase",
+      "category": "original_synthetic",
+      "gold_ids": [
+        "target"
+      ],
+      "lexical_top1": {
+        "ids": [
+          "target"
+        ],
+        "lexical_score": 0.46154
+      },
+      "lexical_selected": []
+    },
+    {
+      "case": "numeric",
+      "category": "original_synthetic",
+      "gold_ids": [
+        "target"
+      ],
+      "lexical_top1": {
+        "ids": [
+          "target"
+        ],
+        "lexical_score": 0.93636
+      },
+      "lexical_selected": [
+        "target"
+      ]
+    },
+    {
+      "case": "negation",
+      "category": "original_synthetic",
+      "gold_ids": [
+        "target"
+      ],
+      "lexical_top1": {
+        "ids": [
+          "target"
+        ],
+        "lexical_score": 0.94615
+      },
+      "lexical_selected": [
+        "target"
+      ]
+    },
+    {
+      "case": "boundary",
+      "category": "original_synthetic",
+      "gold_ids": [
+        "target"
+      ],
+      "lexical_top1": {
+        "ids": [
+          "target"
+        ],
+        "lexical_score": 0.87273
+      },
+      "lexical_selected": [
+        "target"
+      ]
+    },
+    {
+      "case": "modality",
+      "category": "original_synthetic",
+      "gold_ids": [
+        "target"
+      ],
+      "lexical_top1": {
+        "ids": [
+          "target"
+        ],
+        "lexical_score": 0.93636
+      },
+      "lexical_selected": [
+        "target"
+      ]
+    },
+    {
+      "case": "condition",
+      "category": "original_synthetic",
+      "gold_ids": [
+        "target"
+      ],
+      "lexical_top1": {
+        "ids": [
+          "target"
+        ],
+        "lexical_score": 0.95
+      },
+      "lexical_selected": [
+        "target"
+      ]
+    },
+    {
+      "case": "unit_equivalence",
+      "category": "original_synthetic",
+      "gold_ids": [
+        "target"
+      ],
+      "lexical_top1": {
+        "ids": [
+          "target"
+        ],
+        "lexical_score": 0.87273
+      },
+      "lexical_selected": [
+        "target"
+      ]
+    },
+    {
+      "case": "renumber",
+      "category": "original_synthetic",
+      "gold_ids": [
+        "target"
+      ],
+      "lexical_top1": {
+        "ids": [
+          "target"
+        ],
+        "lexical_score": 0.92222
+      },
+      "lexical_selected": [
+        "target"
+      ]
+    },
+    {
+      "case": "inherited_condition",
+      "category": "original_synthetic",
+      "gold_ids": [
+        "target"
+      ],
+      "lexical_top1": {
+        "ids": [
+          "target"
+        ],
+        "lexical_score": 1.0
+      },
+      "lexical_selected": [
+        "target"
+      ]
+    },
+    {
+      "case": "repeated_boilerplate",
+      "category": "original_synthetic",
+      "gold_ids": [
+        "target"
+      ],
+      "lexical_top1": {
+        "ids": [
+          "target"
+        ],
+        "lexical_score": 0.73077
+      },
+      "lexical_selected": [
+        "target"
+      ]
+    },
+    {
+      "case": "section_move",
+      "category": "original_synthetic",
+      "gold_ids": [
+        "target"
+      ],
+      "lexical_top1": {
+        "ids": [
+          "target"
+        ],
+        "lexical_score": 0.9
+      },
+      "lexical_selected": [
+        "target"
+      ]
+    },
+    {
+      "case": "split",
+      "category": "original_synthetic",
+      "gold_ids": [
+        "a",
+        "b"
+      ],
+      "lexical_top1": {
+        "ids": [
+          "a",
+          "b"
+        ],
+        "lexical_score": 0.98
+      },
+      "lexical_selected": [
+        "a",
+        "b"
+      ]
+    },
+    {
+      "case": "deletion",
+      "category": "original_synthetic",
+      "gold_ids": [],
+      "lexical_top1": {
+        "ids": [
+          "other"
+        ],
+        "lexical_score": 0.23333
+      },
+      "lexical_selected": []
+    },
+    {
+      "case": "extra_refresh_paraphrase",
+      "category": "paraphrase",
+      "gold_ids": [
+        "target"
+      ],
+      "lexical_top1": {
+        "ids": [
+          "target"
+        ],
+        "lexical_score": 0.46471
+      },
+      "lexical_selected": []
+    },
+    {
+      "case": "extra_cke_paraphrase",
+      "category": "paraphrase",
+      "gold_ids": [
+        "target"
+      ],
+      "lexical_top1": {
+        "ids": [
+          "target"
+        ],
+        "lexical_score": 0.61818
+      },
+      "lexical_selected": [
+        "target"
+      ]
+    },
+    {
+      "case": "extra_voltage_paraphrase",
+      "category": "paraphrase",
+      "gold_ids": [
+        "target"
+      ],
+      "lexical_top1": {
+        "ids": [
+          "target"
+        ],
+        "lexical_score": 0.46471
+      },
+      "lexical_selected": []
+    },
+    {
+      "case": "extra_mode_register_paraphrase",
+      "category": "paraphrase",
+      "gold_ids": [
+        "target"
+      ],
+      "lexical_top1": {
+        "ids": [
+          "target"
+        ],
+        "lexical_score": 0.42727
+      },
+      "lexical_selected": []
+    },
+    {
+      "case": "extra_numeric_increase",
+      "category": "number",
+      "gold_ids": [
+        "target"
+      ],
+      "lexical_top1": {
+        "ids": [
+          "target"
+        ],
+        "lexical_score": 0.93636
+      },
+      "lexical_selected": [
+        "target"
+      ]
+    },
+    {
+      "case": "extra_numeric_decrease",
+      "category": "number",
+      "gold_ids": [
+        "target"
+      ],
+      "lexical_top1": {
+        "ids": [
+          "target"
+        ],
+        "lexical_score": 0.9125
+      },
+      "lexical_selected": [
+        "target"
+      ]
+    },
+    {
+      "case": "extra_range_lower",
+      "category": "number",
+      "gold_ids": [
+        "target"
+      ],
+      "lexical_top1": {
+        "ids": [
+          "target"
+        ],
+        "lexical_score": 0.93636
+      },
+      "lexical_selected": [
+        "target"
+      ]
+    },
+    {
+      "case": "extra_range_upper",
+      "category": "number",
+      "gold_ids": [
+        "target"
+      ],
+      "lexical_top1": {
+        "ids": [
+          "target"
+        ],
+        "lexical_score": 0.93636
+      },
+      "lexical_selected": [
+        "target"
+      ]
+    },
+    {
+      "case": "extra_not_added",
+      "category": "polarity",
+      "gold_ids": [
+        "target"
+      ],
+      "lexical_top1": {
+        "ids": [
+          "target"
+        ],
+        "lexical_score": 0.95882
+      },
+      "lexical_selected": [
+        "target"
+      ]
+    },
+    {
+      "case": "extra_not_removed",
+      "category": "polarity",
+      "gold_ids": [
+        "target"
+      ],
+      "lexical_top1": {
+        "ids": [
+          "target"
+        ],
+        "lexical_score": 0.95882
+      },
+      "lexical_selected": [
+        "target"
+      ]
+    },
+    {
+      "case": "extra_only_added",
+      "category": "condition",
+      "gold_ids": [
+        "target"
+      ],
+      "lexical_top1": {
+        "ids": [
+          "target"
+        ],
+        "lexical_score": 0.95333
+      },
+      "lexical_selected": [
+        "target"
+      ]
+    },
+    {
+      "case": "extra_unless_added",
+      "category": "condition",
+      "gold_ids": [
+        "target"
+      ],
+      "lexical_top1": {
+        "ids": [
+          "target"
+        ],
+        "lexical_score": 0.86
+      },
+      "lexical_selected": [
+        "target"
+      ]
+    },
+    {
+      "case": "extra_shall_to_should",
+      "category": "modality",
+      "gold_ids": [
+        "target"
+      ],
+      "lexical_top1": {
+        "ids": [
+          "target"
+        ],
+        "lexical_score": 0.88333
+      },
+      "lexical_selected": [
+        "target"
+      ]
+    },
+    {
+      "case": "extra_shall_to_may",
+      "category": "modality",
+      "gold_ids": [
+        "target"
+      ],
+      "lexical_top1": {
+        "ids": [
+          "target"
+        ],
+        "lexical_score": 0.9
+      },
+      "lexical_selected": [
+        "target"
+      ]
+    },
+    {
+      "case": "extra_unit_1000ps",
+      "category": "equivalent",
+      "gold_ids": [
+        "target"
+      ],
+      "lexical_top1": {
+        "ids": [
+          "target"
+        ],
+        "lexical_score": 0.8
+      },
+      "lexical_selected": [
+        "target"
+      ]
+    },
+    {
+      "case": "extra_symbol_alias",
+      "category": "equivalent",
+      "gold_ids": [
+        "target"
+      ],
+      "lexical_top1": {
+        "ids": [
+          "target"
+        ],
+        "lexical_score": 0.68889
+      },
+      "lexical_selected": [
+        "target"
+      ]
+    },
+    {
+      "case": "extra_sentence_reorder",
+      "category": "equivalent",
+      "gold_ids": [
+        "target"
+      ],
+      "lexical_top1": {
+        "ids": [
+          "target"
+        ],
+        "lexical_score": 0.51538
+      },
+      "lexical_selected": [
+        "target"
+      ]
+    },
+    {
+      "case": "extra_reference_renumber",
+      "category": "reference",
+      "gold_ids": [
+        "target"
+      ],
+      "lexical_top1": {
+        "ids": [
+          "target"
+        ],
+        "lexical_score": 0.9125
+      },
+      "lexical_selected": [
+        "target"
+      ]
+    },
+    {
+      "case": "extra_reference_changed",
+      "category": "reference",
+      "gold_ids": [
+        "target"
+      ],
+      "lexical_top1": {
+        "ids": [
+          "target"
+        ],
+        "lexical_score": 0.9125
+      },
+      "lexical_selected": [
+        "target"
+      ]
+    },
+    {
+      "case": "extra_object_swap",
+      "category": "object",
+      "gold_ids": [
+        "target"
+      ],
+      "lexical_top1": {
+        "ids": [
+          "target"
+        ],
+        "lexical_score": 0.92222
+      },
+      "lexical_selected": [
+        "target"
+      ]
+    },
+    {
+      "case": "extra_subject_swap",
+      "category": "object",
+      "gold_ids": [
+        "target"
+      ],
+      "lexical_top1": {
+        "ids": [
+          "target"
+        ],
+        "lexical_score": 0.88333
+      },
+      "lexical_selected": [
+        "target"
+      ]
+    },
+    {
+      "case": "extra_moved_section",
+      "category": "move",
+      "gold_ids": [
+        "target"
+      ],
+      "lexical_top1": {
+        "ids": [
+          "target"
+        ],
+        "lexical_score": 0.9
+      },
+      "lexical_selected": [
+        "target"
+      ]
+    },
+    {
+      "case": "extra_format_only",
+      "category": "format",
+      "gold_ids": [
+        "target"
+      ],
+      "lexical_top1": {
+        "ids": [
+          "target"
+        ],
+        "lexical_score": 1.0
+      },
+      "lexical_selected": [
+        "target"
+      ]
+    },
+    {
+      "case": "extra_list_to_sentence",
+      "category": "paraphrase",
+      "gold_ids": [
+        "target"
+      ],
+      "lexical_top1": {
+        "ids": [
+          "target"
+        ],
+        "lexical_score": 0.59474
+      },
+      "lexical_selected": [
+        "target"
+      ]
+    },
+    {
+      "case": "extra_zero_distractor",
+      "category": "deletion",
+      "gold_ids": [],
+      "lexical_top1": {
+        "ids": [
+          "other"
+        ],
+        "lexical_score": 0.43077
+      },
+      "lexical_selected": []
+    },
+    {
+      "case": "extra_duplicate_template",
+      "category": "duplicate",
+      "gold_ids": [
+        "target"
+      ],
+      "lexical_top1": {
+        "ids": [
+          "other"
+        ],
+        "lexical_score": 0.7
+      },
+      "lexical_selected": [
+        "other"
+      ]
+    },
+    {
+      "case": "extra_split_three",
+      "category": "split",
+      "gold_ids": [
+        "a",
+        "b",
+        "c"
+      ],
+      "lexical_top1": {
+        "ids": [
+          "a",
+          "b",
+          "c"
+        ],
+        "lexical_score": 0.96
+      },
+      "lexical_selected": [
+        "a",
+        "b",
+        "c"
+      ]
+    },
+    {
+      "case": "extra_split_two",
+      "category": "split",
+      "gold_ids": [
+        "a",
+        "b"
+      ],
+      "lexical_top1": {
+        "ids": [
+          "a",
+          "b"
+        ],
+        "lexical_score": 0.98
+      },
+      "lexical_selected": [
+        "a",
+        "b"
+      ]
+    },
+    {
+      "case": "real_D-scope-dual",
+      "category": "real_scope",
+      "gold_ids": [
+        "E-scope-dual"
+      ],
+      "lexical_top1": {
+        "ids": [
+          "E-scope-dual"
+        ],
+        "lexical_score": 0.93636
+      },
+      "lexical_selected": [
+        "E-scope-dual"
+      ]
+    },
+    {
+      "case": "real_D-scope-single",
+      "category": "real_scope",
+      "gold_ids": [
+        "E-scope-single"
+      ],
+      "lexical_top1": {
+        "ids": [
+          "E-scope-single"
+        ],
+        "lexical_score": 0.93
+      },
+      "lexical_selected": [
+        "E-scope-single"
+      ]
+    }
+  ]
+}
