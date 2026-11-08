@@ -1,0 +1,9260 @@
+{
+  "case_count": 45,
+  "positive_alignment_cases": 43,
+  "empty_gold_cases": 2,
+  "encoder_run": true,
+  "evaluation_unit": "top-1 and top-2 candidate-group ranking in hand-authored pools; no automatic deletion decision",
+  "methods": {
+    "lexical": {
+      "top1_exact": 38,
+      "top2_contains_gold": 43,
+      "per_category": {
+        "condition": {
+          "correct": 2,
+          "total": 2
+        },
+        "duplicate": {
+          "correct": 0,
+          "total": 1
+        },
+        "equivalent": {
+          "correct": 3,
+          "total": 3
+        },
+        "format": {
+          "correct": 1,
+          "total": 1
+        },
+        "modality": {
+          "correct": 2,
+          "total": 2
+        },
+        "move": {
+          "correct": 1,
+          "total": 1
+        },
+        "number": {
+          "correct": 4,
+          "total": 4
+        },
+        "object": {
+          "correct": 2,
+          "total": 2
+        },
+        "original_synthetic": {
+          "correct": 12,
+          "total": 14
+        },
+        "paraphrase": {
+          "correct": 3,
+          "total": 5
+        },
+        "polarity": {
+          "correct": 2,
+          "total": 2
+        },
+        "real_scope": {
+          "correct": 2,
+          "total": 2
+        },
+        "reference": {
+          "correct": 2,
+          "total": 2
+        },
+        "split": {
+          "correct": 2,
+          "total": 2
+        }
+      }
+    },
+    "lexical_title_group": {
+      "top1_exact": 42,
+      "top2_contains_gold": 43,
+      "per_category": {
+        "condition": {
+          "correct": 2,
+          "total": 2
+        },
+        "duplicate": {
+          "correct": 0,
+          "total": 1
+        },
+        "equivalent": {
+          "correct": 3,
+          "total": 3
+        },
+        "format": {
+          "correct": 1,
+          "total": 1
+        },
+        "modality": {
+          "correct": 2,
+          "total": 2
+        },
+        "move": {
+          "correct": 1,
+          "total": 1
+        },
+        "number": {
+          "correct": 4,
+          "total": 4
+        },
+        "object": {
+          "correct": 2,
+          "total": 2
+        },
+        "original_synthetic": {
+          "correct": 14,
+          "total": 14
+        },
+        "paraphrase": {
+          "correct": 5,
+          "total": 5
+        },
+        "polarity": {
+          "correct": 2,
+          "total": 2
+        },
+        "real_scope": {
+          "correct": 2,
+          "total": 2
+        },
+        "reference": {
+          "correct": 2,
+          "total": 2
+        },
+        "split": {
+          "correct": 2,
+          "total": 2
+        }
+      }
+    },
+    "bm25": {
+      "top1_exact": 40,
+      "top2_contains_gold": 43,
+      "per_category": {
+        "condition": {
+          "correct": 2,
+          "total": 2
+        },
+        "duplicate": {
+          "correct": 0,
+          "total": 1
+        },
+        "equivalent": {
+          "correct": 3,
+          "total": 3
+        },
+        "format": {
+          "correct": 1,
+          "total": 1
+        },
+        "modality": {
+          "correct": 2,
+          "total": 2
+        },
+        "move": {
+          "correct": 1,
+          "total": 1
+        },
+        "number": {
+          "correct": 4,
+          "total": 4
+        },
+        "object": {
+          "correct": 2,
+          "total": 2
+        },
+        "original_synthetic": {
+          "correct": 13,
+          "total": 14
+        },
+        "paraphrase": {
+          "correct": 5,
+          "total": 5
+        },
+        "polarity": {
+          "correct": 2,
+          "total": 2
+        },
+        "real_scope": {
+          "correct": 1,
+          "total": 2
+        },
+        "reference": {
+          "correct": 2,
+          "total": 2
+        },
+        "split": {
+          "correct": 2,
+          "total": 2
+        }
+      }
+    },
+    "weighted_jaccard": {
+      "top1_exact": 41,
+      "top2_contains_gold": 43,
+      "per_category": {
+        "condition": {
+          "correct": 2,
+          "total": 2
+        },
+        "duplicate": {
+          "correct": 0,
+          "total": 1
+        },
+        "equivalent": {
+          "correct": 3,
+          "total": 3
+        },
+        "format": {
+          "correct": 1,
+          "total": 1
+        },
+        "modality": {
+          "correct": 2,
+          "total": 2
+        },
+        "move": {
+          "correct": 1,
+          "total": 1
+        },
+        "number": {
+          "correct": 4,
+          "total": 4
+        },
+        "object": {
+          "correct": 2,
+          "total": 2
+        },
+        "original_synthetic": {
+          "correct": 13,
+          "total": 14
+        },
+        "paraphrase": {
+          "correct": 5,
+          "total": 5
+        },
+        "polarity": {
+          "correct": 2,
+          "total": 2
+        },
+        "real_scope": {
+          "correct": 2,
+          "total": 2
+        },
+        "reference": {
+          "correct": 2,
+          "total": 2
+        },
+        "split": {
+          "correct": 2,
+          "total": 2
+        }
+      }
+    },
+    "char_tfidf": {
+      "top1_exact": 41,
+      "top2_contains_gold": 43,
+      "per_category": {
+        "condition": {
+          "correct": 2,
+          "total": 2
+        },
+        "duplicate": {
+          "correct": 0,
+          "total": 1
+        },
+        "equivalent": {
+          "correct": 3,
+          "total": 3
+        },
+        "format": {
+          "correct": 1,
+          "total": 1
+        },
+        "modality": {
+          "correct": 2,
+          "total": 2
+        },
+        "move": {
+          "correct": 1,
+          "total": 1
+        },
+        "number": {
+          "correct": 4,
+          "total": 4
+        },
+        "object": {
+          "correct": 2,
+          "total": 2
+        },
+        "original_synthetic": {
+          "correct": 13,
+          "total": 14
+        },
+        "paraphrase": {
+          "correct": 5,
+          "total": 5
+        },
+        "polarity": {
+          "correct": 2,
+          "total": 2
+        },
+        "real_scope": {
+          "correct": 2,
+          "total": 2
+        },
+        "reference": {
+          "correct": 2,
+          "total": 2
+        },
+        "split": {
+          "correct": 2,
+          "total": 2
+        }
+      }
+    },
+    "encoder": {
+      "top1_exact": 41,
+      "top2_contains_gold": 43,
+      "per_category": {
+        "condition": {
+          "correct": 2,
+          "total": 2
+        },
+        "duplicate": {
+          "correct": 0,
+          "total": 1
+        },
+        "equivalent": {
+          "correct": 3,
+          "total": 3
+        },
+        "format": {
+          "correct": 1,
+          "total": 1
+        },
+        "modality": {
+          "correct": 2,
+          "total": 2
+        },
+        "move": {
+          "correct": 1,
+          "total": 1
+        },
+        "number": {
+          "correct": 4,
+          "total": 4
+        },
+        "object": {
+          "correct": 2,
+          "total": 2
+        },
+        "original_synthetic": {
+          "correct": 13,
+          "total": 14
+        },
+        "paraphrase": {
+          "correct": 5,
+          "total": 5
+        },
+        "polarity": {
+          "correct": 2,
+          "total": 2
+        },
+        "real_scope": {
+          "correct": 2,
+          "total": 2
+        },
+        "reference": {
+          "correct": 2,
+          "total": 2
+        },
+        "split": {
+          "correct": 2,
+          "total": 2
+        }
+      }
+    },
+    "rrf_three": {
+      "top1_exact": 41,
+      "top2_contains_gold": 43,
+      "per_category": {
+        "condition": {
+          "correct": 2,
+          "total": 2
+        },
+        "duplicate": {
+          "correct": 0,
+          "total": 1
+        },
+        "equivalent": {
+          "correct": 3,
+          "total": 3
+        },
+        "format": {
+          "correct": 1,
+          "total": 1
+        },
+        "modality": {
+          "correct": 2,
+          "total": 2
+        },
+        "move": {
+          "correct": 1,
+          "total": 1
+        },
+        "number": {
+          "correct": 4,
+          "total": 4
+        },
+        "object": {
+          "correct": 2,
+          "total": 2
+        },
+        "original_synthetic": {
+          "correct": 13,
+          "total": 14
+        },
+        "paraphrase": {
+          "correct": 5,
+          "total": 5
+        },
+        "polarity": {
+          "correct": 2,
+          "total": 2
+        },
+        "real_scope": {
+          "correct": 2,
+          "total": 2
+        },
+        "reference": {
+          "correct": 2,
+          "total": 2
+        },
+        "split": {
+          "correct": 2,
+          "total": 2
+        }
+      }
+    },
+    "rrf_with_encoder": {
+      "top1_exact": 41,
+      "top2_contains_gold": 43,
+      "per_category": {
+        "condition": {
+          "correct": 2,
+          "total": 2
+        },
+        "duplicate": {
+          "correct": 0,
+          "total": 1
+        },
+        "equivalent": {
+          "correct": 3,
+          "total": 3
+        },
+        "format": {
+          "correct": 1,
+          "total": 1
+        },
+        "modality": {
+          "correct": 2,
+          "total": 2
+        },
+        "move": {
+          "correct": 1,
+          "total": 1
+        },
+        "number": {
+          "correct": 4,
+          "total": 4
+        },
+        "object": {
+          "correct": 2,
+          "total": 2
+        },
+        "original_synthetic": {
+          "correct": 13,
+          "total": 14
+        },
+        "paraphrase": {
+          "correct": 5,
+          "total": 5
+        },
+        "polarity": {
+          "correct": 2,
+          "total": 2
+        },
+        "real_scope": {
+          "correct": 2,
+          "total": 2
+        },
+        "reference": {
+          "correct": 2,
+          "total": 2
+        },
+        "split": {
+          "correct": 2,
+          "total": 2
+        }
+      }
+    }
+  },
+  "details": [
+    {
+      "case": "unchanged",
+      "category": "original_synthetic",
+      "gold_ids": [
+        "target"
+      ],
+      "lexical_accepted": [
+        "target"
+      ],
+      "predictions_top1": {
+        "lexical": [
+          "target"
+        ],
+        "lexical_title_group": [
+          "target"
+        ],
+        "bm25": [
+          "target"
+        ],
+        "weighted_jaccard": [
+          "target"
+        ],
+        "char_tfidf": [
+          "target"
+        ],
+        "encoder": [
+          "target"
+        ],
+        "rrf_three": [
+          "target"
+        ],
+        "rrf_with_encoder": [
+          "target"
+        ]
+      },
+      "predictions_top2": {
+        "lexical": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "lexical_title_group": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "bm25": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "weighted_jaccard": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "char_tfidf": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "encoder": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "rrf_three": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "rrf_with_encoder": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ]
+      },
+      "scores": {
+        "lexical": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.33333
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 1.0
+          }
+        ],
+        "lexical_title_group": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.23333
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 1.0
+          }
+        ],
+        "bm25": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.68973
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 14.00761
+          }
+        ],
+        "weighted_jaccard": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.07791
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 1.0
+          }
+        ],
+        "char_tfidf": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.04277
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 1.0
+          }
+        ],
+        "encoder": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.66372
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "case": "line_wrap",
+      "category": "original_synthetic",
+      "gold_ids": [
+        "target"
+      ],
+      "lexical_accepted": [
+        "target"
+      ],
+      "predictions_top1": {
+        "lexical": [
+          "target"
+        ],
+        "lexical_title_group": [
+          "target"
+        ],
+        "bm25": [
+          "target"
+        ],
+        "weighted_jaccard": [
+          "target"
+        ],
+        "char_tfidf": [
+          "target"
+        ],
+        "encoder": [
+          "target"
+        ],
+        "rrf_three": [
+          "target"
+        ],
+        "rrf_with_encoder": [
+          "target"
+        ]
+      },
+      "predictions_top2": {
+        "lexical": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "lexical_title_group": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "bm25": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "weighted_jaccard": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "char_tfidf": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "encoder": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "rrf_three": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "rrf_with_encoder": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ]
+      },
+      "scores": {
+        "lexical": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.33333
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 1.0
+          }
+        ],
+        "lexical_title_group": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.23333
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 1.0
+          }
+        ],
+        "bm25": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.68973
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 14.00761
+          }
+        ],
+        "weighted_jaccard": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.07791
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 1.0
+          }
+        ],
+        "char_tfidf": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.04277
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 1.0
+          }
+        ],
+        "encoder": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.66372
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "case": "paraphrase",
+      "category": "original_synthetic",
+      "gold_ids": [
+        "target"
+      ],
+      "lexical_accepted": [],
+      "predictions_top1": {
+        "lexical": [
+          "other"
+        ],
+        "lexical_title_group": [
+          "target"
+        ],
+        "bm25": [
+          "target"
+        ],
+        "weighted_jaccard": [
+          "target"
+        ],
+        "char_tfidf": [
+          "target"
+        ],
+        "encoder": [
+          "target"
+        ],
+        "rrf_three": [
+          "target"
+        ],
+        "rrf_with_encoder": [
+          "target"
+        ]
+      },
+      "predictions_top2": {
+        "lexical": [
+          [
+            "other"
+          ],
+          [
+            "target"
+          ]
+        ],
+        "lexical_title_group": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "bm25": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "weighted_jaccard": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "char_tfidf": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "encoder": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "rrf_three": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "rrf_with_encoder": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ]
+      },
+      "scores": {
+        "lexical": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.33333
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.23077
+          }
+        ],
+        "lexical_title_group": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.23333
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.46154
+          }
+        ],
+        "bm25": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.68973
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 6.04344
+          }
+        ],
+        "weighted_jaccard": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.07791
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.23008
+          }
+        ],
+        "char_tfidf": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.04277
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.19702
+          }
+        ],
+        "encoder": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.66372
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.92097
+          }
+        ]
+      }
+    },
+    {
+      "case": "numeric",
+      "category": "original_synthetic",
+      "gold_ids": [
+        "target"
+      ],
+      "lexical_accepted": [
+        "target"
+      ],
+      "predictions_top1": {
+        "lexical": [
+          "target"
+        ],
+        "lexical_title_group": [
+          "target"
+        ],
+        "bm25": [
+          "target"
+        ],
+        "weighted_jaccard": [
+          "target"
+        ],
+        "char_tfidf": [
+          "target"
+        ],
+        "encoder": [
+          "target"
+        ],
+        "rrf_three": [
+          "target"
+        ],
+        "rrf_with_encoder": [
+          "target"
+        ]
+      },
+      "predictions_top2": {
+        "lexical": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "lexical_title_group": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "bm25": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "weighted_jaccard": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "char_tfidf": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "encoder": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "rrf_three": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "rrf_with_encoder": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ]
+      },
+      "scores": {
+        "lexical": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.33333
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.90909
+          }
+        ],
+        "lexical_title_group": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.23333
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.93636
+          }
+        ],
+        "bm25": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.68973
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 12.18432
+          }
+        ],
+        "weighted_jaccard": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.07791
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.73988
+          }
+        ],
+        "char_tfidf": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.04277
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.83881
+          }
+        ],
+        "encoder": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.66372
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.91831
+          }
+        ]
+      }
+    },
+    {
+      "case": "negation",
+      "category": "original_synthetic",
+      "gold_ids": [
+        "target"
+      ],
+      "lexical_accepted": [
+        "target"
+      ],
+      "predictions_top1": {
+        "lexical": [
+          "target"
+        ],
+        "lexical_title_group": [
+          "target"
+        ],
+        "bm25": [
+          "target"
+        ],
+        "weighted_jaccard": [
+          "target"
+        ],
+        "char_tfidf": [
+          "target"
+        ],
+        "encoder": [
+          "target"
+        ],
+        "rrf_three": [
+          "target"
+        ],
+        "rrf_with_encoder": [
+          "target"
+        ]
+      },
+      "predictions_top2": {
+        "lexical": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "lexical_title_group": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "bm25": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "weighted_jaccard": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "char_tfidf": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "encoder": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "rrf_three": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "rrf_with_encoder": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ]
+      },
+      "scores": {
+        "lexical": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.46154
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.92308
+          }
+        ],
+        "lexical_title_group": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.32308
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.94615
+          }
+        ],
+        "bm25": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.68973
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 8.6138
+          }
+        ],
+        "weighted_jaccard": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.1264
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.73767
+          }
+        ],
+        "char_tfidf": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.05035
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.78544
+          }
+        ],
+        "encoder": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.63329
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.87253
+          }
+        ]
+      }
+    },
+    {
+      "case": "boundary",
+      "category": "original_synthetic",
+      "gold_ids": [
+        "target"
+      ],
+      "lexical_accepted": [
+        "target"
+      ],
+      "predictions_top1": {
+        "lexical": [
+          "target"
+        ],
+        "lexical_title_group": [
+          "target"
+        ],
+        "bm25": [
+          "target"
+        ],
+        "weighted_jaccard": [
+          "target"
+        ],
+        "char_tfidf": [
+          "target"
+        ],
+        "encoder": [
+          "target"
+        ],
+        "rrf_three": [
+          "target"
+        ],
+        "rrf_with_encoder": [
+          "target"
+        ]
+      },
+      "predictions_top2": {
+        "lexical": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "lexical_title_group": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "bm25": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "weighted_jaccard": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "char_tfidf": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "encoder": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "rrf_three": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "rrf_with_encoder": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ]
+      },
+      "scores": {
+        "lexical": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.33333
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.81818
+          }
+        ],
+        "lexical_title_group": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.23333
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.87273
+          }
+        ],
+        "bm25": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.68973
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 10.28683
+          }
+        ],
+        "weighted_jaccard": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.07791
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.54959
+          }
+        ],
+        "char_tfidf": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.04277
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.60818
+          }
+        ],
+        "encoder": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.66372
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.98793
+          }
+        ]
+      }
+    },
+    {
+      "case": "modality",
+      "category": "original_synthetic",
+      "gold_ids": [
+        "target"
+      ],
+      "lexical_accepted": [
+        "target"
+      ],
+      "predictions_top1": {
+        "lexical": [
+          "target"
+        ],
+        "lexical_title_group": [
+          "target"
+        ],
+        "bm25": [
+          "target"
+        ],
+        "weighted_jaccard": [
+          "target"
+        ],
+        "char_tfidf": [
+          "target"
+        ],
+        "encoder": [
+          "target"
+        ],
+        "rrf_three": [
+          "target"
+        ],
+        "rrf_with_encoder": [
+          "target"
+        ]
+      },
+      "predictions_top2": {
+        "lexical": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "lexical_title_group": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "bm25": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "weighted_jaccard": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "char_tfidf": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "encoder": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "rrf_three": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "rrf_with_encoder": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ]
+      },
+      "scores": {
+        "lexical": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.33333
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.90909
+          }
+        ],
+        "lexical_title_group": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.23333
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.93636
+          }
+        ],
+        "bm25": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.68973
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 13.67168
+          }
+        ],
+        "weighted_jaccard": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.07791
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.81249
+          }
+        ],
+        "char_tfidf": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.04277
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.80872
+          }
+        ],
+        "encoder": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.66372
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.986
+          }
+        ]
+      }
+    },
+    {
+      "case": "condition",
+      "category": "original_synthetic",
+      "gold_ids": [
+        "target"
+      ],
+      "lexical_accepted": [
+        "target"
+      ],
+      "predictions_top1": {
+        "lexical": [
+          "target"
+        ],
+        "lexical_title_group": [
+          "target"
+        ],
+        "bm25": [
+          "target"
+        ],
+        "weighted_jaccard": [
+          "target"
+        ],
+        "char_tfidf": [
+          "target"
+        ],
+        "encoder": [
+          "target"
+        ],
+        "rrf_three": [
+          "target"
+        ],
+        "rrf_with_encoder": [
+          "target"
+        ]
+      },
+      "predictions_top2": {
+        "lexical": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "lexical_title_group": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "bm25": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "weighted_jaccard": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "char_tfidf": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "encoder": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "rrf_three": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "rrf_with_encoder": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ]
+      },
+      "scores": {
+        "lexical": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.28571
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.92857
+          }
+        ],
+        "lexical_title_group": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.2
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.95
+          }
+        ],
+        "bm25": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 1.54542
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 13.42759
+          }
+        ],
+        "weighted_jaccard": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.11402
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.73604
+          }
+        ],
+        "char_tfidf": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.04295
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.89358
+          }
+        ],
+        "encoder": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.65687
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.97863
+          }
+        ]
+      }
+    },
+    {
+      "case": "unit_equivalence",
+      "category": "original_synthetic",
+      "gold_ids": [
+        "target"
+      ],
+      "lexical_accepted": [
+        "target"
+      ],
+      "predictions_top1": {
+        "lexical": [
+          "target"
+        ],
+        "lexical_title_group": [
+          "target"
+        ],
+        "bm25": [
+          "target"
+        ],
+        "weighted_jaccard": [
+          "target"
+        ],
+        "char_tfidf": [
+          "target"
+        ],
+        "encoder": [
+          "target"
+        ],
+        "rrf_three": [
+          "target"
+        ],
+        "rrf_with_encoder": [
+          "target"
+        ]
+      },
+      "predictions_top2": {
+        "lexical": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "lexical_title_group": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "bm25": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "weighted_jaccard": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "char_tfidf": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "encoder": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "rrf_three": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "rrf_with_encoder": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ]
+      },
+      "scores": {
+        "lexical": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.33333
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.81818
+          }
+        ],
+        "lexical_title_group": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.23333
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.87273
+          }
+        ],
+        "bm25": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.68973
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 10.4931
+          }
+        ],
+        "weighted_jaccard": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.07791
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.56241
+          }
+        ],
+        "char_tfidf": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.04277
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.75712
+          }
+        ],
+        "encoder": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.66372
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.89875
+          }
+        ]
+      }
+    },
+    {
+      "case": "renumber",
+      "category": "original_synthetic",
+      "gold_ids": [
+        "target"
+      ],
+      "lexical_accepted": [
+        "target"
+      ],
+      "predictions_top1": {
+        "lexical": [
+          "target"
+        ],
+        "lexical_title_group": [
+          "target"
+        ],
+        "bm25": [
+          "target"
+        ],
+        "weighted_jaccard": [
+          "target"
+        ],
+        "char_tfidf": [
+          "target"
+        ],
+        "encoder": [
+          "target"
+        ],
+        "rrf_three": [
+          "target"
+        ],
+        "rrf_with_encoder": [
+          "target"
+        ]
+      },
+      "predictions_top2": {
+        "lexical": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "lexical_title_group": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "bm25": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "weighted_jaccard": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "char_tfidf": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "encoder": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "rrf_three": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "rrf_with_encoder": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ]
+      },
+      "scores": {
+        "lexical": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.125
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.88889
+          }
+        ],
+        "lexical_title_group": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.0875
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.92222
+          }
+        ],
+        "bm25": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.27517
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 20.69535
+          }
+        ],
+        "weighted_jaccard": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.03329
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.83091
+          }
+        ],
+        "char_tfidf": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.0122
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.93235
+          }
+        ],
+        "encoder": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.6061
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.94914
+          }
+        ]
+      }
+    },
+    {
+      "case": "inherited_condition",
+      "category": "original_synthetic",
+      "gold_ids": [
+        "target"
+      ],
+      "lexical_accepted": [
+        "target"
+      ],
+      "predictions_top1": {
+        "lexical": [
+          "target"
+        ],
+        "lexical_title_group": [
+          "target"
+        ],
+        "bm25": [
+          "target"
+        ],
+        "weighted_jaccard": [
+          "target"
+        ],
+        "char_tfidf": [
+          "target"
+        ],
+        "encoder": [
+          "target"
+        ],
+        "rrf_three": [
+          "target"
+        ],
+        "rrf_with_encoder": [
+          "target"
+        ]
+      },
+      "predictions_top2": {
+        "lexical": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "lexical_title_group": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "bm25": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "weighted_jaccard": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "char_tfidf": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "encoder": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "rrf_three": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "rrf_with_encoder": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ]
+      },
+      "scores": {
+        "lexical": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.33333
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 1.0
+          }
+        ],
+        "lexical_title_group": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.23333
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 1.0
+          }
+        ],
+        "bm25": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.68973
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 14.00761
+          }
+        ],
+        "weighted_jaccard": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.07791
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 1.0
+          }
+        ],
+        "char_tfidf": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.04277
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 1.0
+          }
+        ],
+        "encoder": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.66372
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "case": "repeated_boilerplate",
+      "category": "original_synthetic",
+      "gold_ids": [
+        "target"
+      ],
+      "lexical_accepted": [
+        "target"
+      ],
+      "predictions_top1": {
+        "lexical": [
+          "other"
+        ],
+        "lexical_title_group": [
+          "target"
+        ],
+        "bm25": [
+          "other"
+        ],
+        "weighted_jaccard": [
+          "other"
+        ],
+        "char_tfidf": [
+          "other"
+        ],
+        "encoder": [
+          "other"
+        ],
+        "rrf_three": [
+          "other"
+        ],
+        "rrf_with_encoder": [
+          "other"
+        ]
+      },
+      "predictions_top2": {
+        "lexical": [
+          [
+            "other"
+          ],
+          [
+            "target"
+          ]
+        ],
+        "lexical_title_group": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "bm25": [
+          [
+            "other"
+          ],
+          [
+            "target"
+          ]
+        ],
+        "weighted_jaccard": [
+          [
+            "other"
+          ],
+          [
+            "target"
+          ]
+        ],
+        "char_tfidf": [
+          [
+            "other"
+          ],
+          [
+            "target"
+          ]
+        ],
+        "encoder": [
+          [
+            "other"
+          ],
+          [
+            "target"
+          ]
+        ],
+        "rrf_three": [
+          [
+            "other"
+          ],
+          [
+            "target"
+          ]
+        ],
+        "rrf_with_encoder": [
+          [
+            "other"
+          ],
+          [
+            "target"
+          ]
+        ]
+      },
+      "scores": {
+        "lexical": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 1.0
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.61538
+          }
+        ],
+        "lexical_title_group": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.7
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.73077
+          }
+        ],
+        "bm25": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 14.69871
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 6.17319
+          }
+        ],
+        "weighted_jaccard": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 1.0
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.28299
+          }
+        ],
+        "char_tfidf": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 1.0
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.40157
+          }
+        ],
+        "encoder": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 1.0
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.95937
+          }
+        ]
+      }
+    },
+    {
+      "case": "section_move",
+      "category": "original_synthetic",
+      "gold_ids": [
+        "target"
+      ],
+      "lexical_accepted": [
+        "target"
+      ],
+      "predictions_top1": {
+        "lexical": [
+          "target"
+        ],
+        "lexical_title_group": [
+          "target"
+        ],
+        "bm25": [
+          "target"
+        ],
+        "weighted_jaccard": [
+          "target"
+        ],
+        "char_tfidf": [
+          "target"
+        ],
+        "encoder": [
+          "target"
+        ],
+        "rrf_three": [
+          "target"
+        ],
+        "rrf_with_encoder": [
+          "target"
+        ]
+      },
+      "predictions_top2": {
+        "lexical": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "lexical_title_group": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "bm25": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "weighted_jaccard": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "char_tfidf": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "encoder": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "rrf_three": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "rrf_with_encoder": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ]
+      },
+      "scores": {
+        "lexical": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.33333
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 1.0
+          }
+        ],
+        "lexical_title_group": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.23333
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.9
+          }
+        ],
+        "bm25": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.68973
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 14.00761
+          }
+        ],
+        "weighted_jaccard": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.07791
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 1.0
+          }
+        ],
+        "char_tfidf": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.04277
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 1.0
+          }
+        ],
+        "encoder": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.66372
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "case": "split",
+      "category": "original_synthetic",
+      "gold_ids": [
+        "a",
+        "b"
+      ],
+      "lexical_accepted": [
+        "a",
+        "b"
+      ],
+      "predictions_top1": {
+        "lexical": [
+          "a",
+          "b"
+        ],
+        "lexical_title_group": [
+          "a",
+          "b"
+        ],
+        "bm25": [
+          "a",
+          "b"
+        ],
+        "weighted_jaccard": [
+          "a",
+          "b"
+        ],
+        "char_tfidf": [
+          "a",
+          "b"
+        ],
+        "encoder": [
+          "a",
+          "b"
+        ],
+        "rrf_three": [
+          "a",
+          "b"
+        ],
+        "rrf_with_encoder": [
+          "a",
+          "b"
+        ]
+      },
+      "predictions_top2": {
+        "lexical": [
+          [
+            "a",
+            "b"
+          ],
+          [
+            "a"
+          ]
+        ],
+        "lexical_title_group": [
+          [
+            "a",
+            "b"
+          ],
+          [
+            "a"
+          ]
+        ],
+        "bm25": [
+          [
+            "a",
+            "b"
+          ],
+          [
+            "a"
+          ]
+        ],
+        "weighted_jaccard": [
+          [
+            "a",
+            "b"
+          ],
+          [
+            "a"
+          ]
+        ],
+        "char_tfidf": [
+          [
+            "a",
+            "b"
+          ],
+          [
+            "a"
+          ]
+        ],
+        "encoder": [
+          [
+            "a",
+            "b"
+          ],
+          [
+            "a"
+          ]
+        ],
+        "rrf_three": [
+          [
+            "a",
+            "b"
+          ],
+          [
+            "a"
+          ]
+        ],
+        "rrf_with_encoder": [
+          [
+            "a",
+            "b"
+          ],
+          [
+            "a"
+          ]
+        ]
+      },
+      "scores": {
+        "lexical": [
+          {
+            "ids": [
+              "a"
+            ],
+            "score": 0.75862
+          },
+          {
+            "ids": [
+              "b"
+            ],
+            "score": 0.56
+          },
+          {
+            "ids": [
+              "a",
+              "b"
+            ],
+            "score": 1.0
+          }
+        ],
+        "lexical_title_group": [
+          {
+            "ids": [
+              "a"
+            ],
+            "score": 0.83103
+          },
+          {
+            "ids": [
+              "b"
+            ],
+            "score": 0.692
+          },
+          {
+            "ids": [
+              "a",
+              "b"
+            ],
+            "score": 0.88
+          }
+        ],
+        "bm25": [
+          {
+            "ids": [
+              "a"
+            ],
+            "score": 14.00761
+          },
+          {
+            "ids": [
+              "b"
+            ],
+            "score": 5.25714
+          },
+          {
+            "ids": [
+              "a",
+              "b"
+            ],
+            "score": 14.01311
+          }
+        ],
+        "weighted_jaccard": [
+          {
+            "ids": [
+              "a"
+            ],
+            "score": 0.75875
+          },
+          {
+            "ids": [
+              "b"
+            ],
+            "score": 0.31917
+          },
+          {
+            "ids": [
+              "a",
+              "b"
+            ],
+            "score": 1.0
+          }
+        ],
+        "char_tfidf": [
+          {
+            "ids": [
+              "a"
+            ],
+            "score": 0.8186
+          },
+          {
+            "ids": [
+              "b"
+            ],
+            "score": 0.4743
+          },
+          {
+            "ids": [
+              "a",
+              "b"
+            ],
+            "score": 1.0
+          }
+        ],
+        "encoder": [
+          {
+            "ids": [
+              "a"
+            ],
+            "score": 0.96515
+          },
+          {
+            "ids": [
+              "b"
+            ],
+            "score": 0.76798
+          },
+          {
+            "ids": [
+              "a",
+              "b"
+            ],
+            "score": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "case": "deletion",
+      "category": "original_synthetic",
+      "gold_ids": [],
+      "lexical_accepted": [],
+      "predictions_top1": {
+        "lexical": [
+          "other"
+        ],
+        "lexical_title_group": [
+          "other"
+        ],
+        "bm25": [
+          "other"
+        ],
+        "weighted_jaccard": [
+          "other"
+        ],
+        "char_tfidf": [
+          "other"
+        ],
+        "encoder": [
+          "other"
+        ],
+        "rrf_three": [
+          "other"
+        ],
+        "rrf_with_encoder": [
+          "other"
+        ]
+      },
+      "predictions_top2": {
+        "lexical": [
+          [
+            "other"
+          ]
+        ],
+        "lexical_title_group": [
+          [
+            "other"
+          ]
+        ],
+        "bm25": [
+          [
+            "other"
+          ]
+        ],
+        "weighted_jaccard": [
+          [
+            "other"
+          ]
+        ],
+        "char_tfidf": [
+          [
+            "other"
+          ]
+        ],
+        "encoder": [
+          [
+            "other"
+          ]
+        ],
+        "rrf_three": [
+          [
+            "other"
+          ]
+        ],
+        "rrf_with_encoder": [
+          [
+            "other"
+          ]
+        ]
+      },
+      "scores": {
+        "lexical": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.33333
+          }
+        ],
+        "lexical_title_group": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.23333
+          }
+        ],
+        "bm25": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.68973
+          }
+        ],
+        "weighted_jaccard": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.07791
+          }
+        ],
+        "char_tfidf": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.04277
+          }
+        ],
+        "encoder": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.66372
+          }
+        ]
+      }
+    },
+    {
+      "case": "extra_refresh_paraphrase",
+      "category": "paraphrase",
+      "gold_ids": [
+        "target"
+      ],
+      "lexical_accepted": [],
+      "predictions_top1": {
+        "lexical": [
+          "other"
+        ],
+        "lexical_title_group": [
+          "target"
+        ],
+        "bm25": [
+          "target"
+        ],
+        "weighted_jaccard": [
+          "target"
+        ],
+        "char_tfidf": [
+          "target"
+        ],
+        "encoder": [
+          "target"
+        ],
+        "rrf_three": [
+          "target"
+        ],
+        "rrf_with_encoder": [
+          "target"
+        ]
+      },
+      "predictions_top2": {
+        "lexical": [
+          [
+            "other"
+          ],
+          [
+            "target"
+          ]
+        ],
+        "lexical_title_group": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "bm25": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "weighted_jaccard": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "char_tfidf": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "encoder": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "rrf_three": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "rrf_with_encoder": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ]
+      },
+      "scores": {
+        "lexical": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.5
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.23529
+          }
+        ],
+        "lexical_title_group": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.35
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.46471
+          }
+        ],
+        "bm25": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 1.42849
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 9.86997
+          }
+        ],
+        "weighted_jaccard": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.15638
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.31895
+          }
+        ],
+        "char_tfidf": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.15092
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.36958
+          }
+        ],
+        "encoder": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.7908
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.87033
+          }
+        ]
+      }
+    },
+    {
+      "case": "extra_cke_paraphrase",
+      "category": "paraphrase",
+      "gold_ids": [
+        "target"
+      ],
+      "lexical_accepted": [
+        "target"
+      ],
+      "predictions_top1": {
+        "lexical": [
+          "target"
+        ],
+        "lexical_title_group": [
+          "target"
+        ],
+        "bm25": [
+          "target"
+        ],
+        "weighted_jaccard": [
+          "target"
+        ],
+        "char_tfidf": [
+          "target"
+        ],
+        "encoder": [
+          "target"
+        ],
+        "rrf_three": [
+          "target"
+        ],
+        "rrf_with_encoder": [
+          "target"
+        ]
+      },
+      "predictions_top2": {
+        "lexical": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "lexical_title_group": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "bm25": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "weighted_jaccard": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "char_tfidf": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "encoder": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "rrf_three": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "rrf_with_encoder": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ]
+      },
+      "scores": {
+        "lexical": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.375
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.45455
+          }
+        ],
+        "lexical_title_group": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.2625
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.61818
+          }
+        ],
+        "bm25": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 1.37368
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 19.02379
+          }
+        ],
+        "weighted_jaccard": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.08461
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.52404
+          }
+        ],
+        "char_tfidf": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.16278
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.56267
+          }
+        ],
+        "encoder": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.68778
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.93506
+          }
+        ]
+      }
+    },
+    {
+      "case": "extra_voltage_paraphrase",
+      "category": "paraphrase",
+      "gold_ids": [
+        "target"
+      ],
+      "lexical_accepted": [],
+      "predictions_top1": {
+        "lexical": [
+          "target"
+        ],
+        "lexical_title_group": [
+          "target"
+        ],
+        "bm25": [
+          "target"
+        ],
+        "weighted_jaccard": [
+          "target"
+        ],
+        "char_tfidf": [
+          "target"
+        ],
+        "encoder": [
+          "target"
+        ],
+        "rrf_three": [
+          "target"
+        ],
+        "rrf_with_encoder": [
+          "target"
+        ]
+      },
+      "predictions_top2": {
+        "lexical": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "lexical_title_group": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "bm25": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "weighted_jaccard": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "char_tfidf": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "encoder": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "rrf_three": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "rrf_with_encoder": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ]
+      },
+      "scores": {
+        "lexical": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.13333
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.23529
+          }
+        ],
+        "lexical_title_group": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.09333
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.46471
+          }
+        ],
+        "bm25": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.0
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 6.92013
+          }
+        ],
+        "weighted_jaccard": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.0
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.1825
+          }
+        ],
+        "char_tfidf": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.04617
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.39695
+          }
+        ],
+        "encoder": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.58489
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.86024
+          }
+        ]
+      }
+    },
+    {
+      "case": "extra_mode_register_paraphrase",
+      "category": "paraphrase",
+      "gold_ids": [
+        "target"
+      ],
+      "lexical_accepted": [],
+      "predictions_top1": {
+        "lexical": [
+          "other"
+        ],
+        "lexical_title_group": [
+          "target"
+        ],
+        "bm25": [
+          "target"
+        ],
+        "weighted_jaccard": [
+          "target"
+        ],
+        "char_tfidf": [
+          "target"
+        ],
+        "encoder": [
+          "target"
+        ],
+        "rrf_three": [
+          "target"
+        ],
+        "rrf_with_encoder": [
+          "target"
+        ]
+      },
+      "predictions_top2": {
+        "lexical": [
+          [
+            "other"
+          ],
+          [
+            "target"
+          ]
+        ],
+        "lexical_title_group": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "bm25": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "weighted_jaccard": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "char_tfidf": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "encoder": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "rrf_three": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "rrf_with_encoder": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ]
+      },
+      "scores": {
+        "lexical": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.35294
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.18182
+          }
+        ],
+        "lexical_title_group": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.24706
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.42727
+          }
+        ],
+        "bm25": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.68973
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 9.70323
+          }
+        ],
+        "weighted_jaccard": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.08378
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.34651
+          }
+        ],
+        "char_tfidf": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.04735
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.34286
+          }
+        ],
+        "encoder": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.59485
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.92014
+          }
+        ]
+      }
+    },
+    {
+      "case": "extra_numeric_increase",
+      "category": "number",
+      "gold_ids": [
+        "target"
+      ],
+      "lexical_accepted": [
+        "target"
+      ],
+      "predictions_top1": {
+        "lexical": [
+          "target"
+        ],
+        "lexical_title_group": [
+          "target"
+        ],
+        "bm25": [
+          "target"
+        ],
+        "weighted_jaccard": [
+          "target"
+        ],
+        "char_tfidf": [
+          "target"
+        ],
+        "encoder": [
+          "target"
+        ],
+        "rrf_three": [
+          "target"
+        ],
+        "rrf_with_encoder": [
+          "target"
+        ]
+      },
+      "predictions_top2": {
+        "lexical": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "lexical_title_group": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "bm25": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "weighted_jaccard": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "char_tfidf": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "encoder": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "rrf_three": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "rrf_with_encoder": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ]
+      },
+      "scores": {
+        "lexical": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.44444
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.90909
+          }
+        ],
+        "lexical_title_group": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.31111
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.93636
+          }
+        ],
+        "bm25": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 1.42849
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 11.78378
+          }
+        ],
+        "weighted_jaccard": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.1478
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.80909
+          }
+        ],
+        "char_tfidf": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.1985
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.86519
+          }
+        ],
+        "encoder": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.77154
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.88753
+          }
+        ]
+      }
+    },
+    {
+      "case": "extra_numeric_decrease",
+      "category": "number",
+      "gold_ids": [
+        "target"
+      ],
+      "lexical_accepted": [
+        "target"
+      ],
+      "predictions_top1": {
+        "lexical": [
+          "target"
+        ],
+        "lexical_title_group": [
+          "target"
+        ],
+        "bm25": [
+          "target"
+        ],
+        "weighted_jaccard": [
+          "target"
+        ],
+        "char_tfidf": [
+          "target"
+        ],
+        "encoder": [
+          "target"
+        ],
+        "rrf_three": [
+          "target"
+        ],
+        "rrf_with_encoder": [
+          "target"
+        ]
+      },
+      "predictions_top2": {
+        "lexical": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "lexical_title_group": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "bm25": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "weighted_jaccard": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "char_tfidf": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "encoder": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "rrf_three": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "rrf_with_encoder": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ]
+      },
+      "scores": {
+        "lexical": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.26667
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.875
+          }
+        ],
+        "lexical_title_group": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.18667
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.9125
+          }
+        ],
+        "bm25": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.27517
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 18.71345
+          }
+        ],
+        "weighted_jaccard": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.03489
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.74674
+          }
+        ],
+        "char_tfidf": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.00613
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.89709
+          }
+        ],
+        "encoder": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.545
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.88186
+          }
+        ]
+      }
+    },
+    {
+      "case": "extra_range_lower",
+      "category": "number",
+      "gold_ids": [
+        "target"
+      ],
+      "lexical_accepted": [
+        "target"
+      ],
+      "predictions_top1": {
+        "lexical": [
+          "target"
+        ],
+        "lexical_title_group": [
+          "target"
+        ],
+        "bm25": [
+          "target"
+        ],
+        "weighted_jaccard": [
+          "target"
+        ],
+        "char_tfidf": [
+          "target"
+        ],
+        "encoder": [
+          "target"
+        ],
+        "rrf_three": [
+          "target"
+        ],
+        "rrf_with_encoder": [
+          "target"
+        ]
+      },
+      "predictions_top2": {
+        "lexical": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "lexical_title_group": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "bm25": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "weighted_jaccard": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "char_tfidf": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "encoder": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "rrf_three": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "rrf_with_encoder": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ]
+      },
+      "scores": {
+        "lexical": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.22222
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.90909
+          }
+        ],
+        "lexical_title_group": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.15556
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.93636
+          }
+        ],
+        "bm25": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.27517
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 18.45461
+          }
+        ],
+        "weighted_jaccard": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.03041
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.75738
+          }
+        ],
+        "char_tfidf": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.01183
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.87577
+          }
+        ],
+        "encoder": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.56446
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.92303
+          }
+        ]
+      }
+    },
+    {
+      "case": "extra_range_upper",
+      "category": "number",
+      "gold_ids": [
+        "target"
+      ],
+      "lexical_accepted": [
+        "target"
+      ],
+      "predictions_top1": {
+        "lexical": [
+          "target"
+        ],
+        "lexical_title_group": [
+          "target"
+        ],
+        "bm25": [
+          "target"
+        ],
+        "weighted_jaccard": [
+          "target"
+        ],
+        "char_tfidf": [
+          "target"
+        ],
+        "encoder": [
+          "target"
+        ],
+        "rrf_three": [
+          "target"
+        ],
+        "rrf_with_encoder": [
+          "target"
+        ]
+      },
+      "predictions_top2": {
+        "lexical": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "lexical_title_group": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "bm25": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "weighted_jaccard": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "char_tfidf": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "encoder": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "rrf_three": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "rrf_with_encoder": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ]
+      },
+      "scores": {
+        "lexical": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.22222
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.90909
+          }
+        ],
+        "lexical_title_group": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.15556
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.93636
+          }
+        ],
+        "bm25": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.27517
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 19.75943
+          }
+        ],
+        "weighted_jaccard": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.03041
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.79246
+          }
+        ],
+        "char_tfidf": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.01183
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.89357
+          }
+        ],
+        "encoder": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.56446
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.92571
+          }
+        ]
+      }
+    },
+    {
+      "case": "extra_not_added",
+      "category": "polarity",
+      "gold_ids": [
+        "target"
+      ],
+      "lexical_accepted": [
+        "target"
+      ],
+      "predictions_top1": {
+        "lexical": [
+          "target"
+        ],
+        "lexical_title_group": [
+          "target"
+        ],
+        "bm25": [
+          "target"
+        ],
+        "weighted_jaccard": [
+          "target"
+        ],
+        "char_tfidf": [
+          "target"
+        ],
+        "encoder": [
+          "target"
+        ],
+        "rrf_three": [
+          "target"
+        ],
+        "rrf_with_encoder": [
+          "target"
+        ]
+      },
+      "predictions_top2": {
+        "lexical": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "lexical_title_group": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "bm25": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "weighted_jaccard": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "char_tfidf": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "encoder": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "rrf_three": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "rrf_with_encoder": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ]
+      },
+      "scores": {
+        "lexical": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.4
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.94118
+          }
+        ],
+        "lexical_title_group": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.28
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.95882
+          }
+        ],
+        "bm25": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.68973
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 16.22607
+          }
+        ],
+        "weighted_jaccard": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.08609
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.83563
+          }
+        ],
+        "char_tfidf": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.03662
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.90337
+          }
+        ],
+        "encoder": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.67144
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.93932
+          }
+        ]
+      }
+    },
+    {
+      "case": "extra_not_removed",
+      "category": "polarity",
+      "gold_ids": [
+        "target"
+      ],
+      "lexical_accepted": [
+        "target"
+      ],
+      "predictions_top1": {
+        "lexical": [
+          "target"
+        ],
+        "lexical_title_group": [
+          "target"
+        ],
+        "bm25": [
+          "target"
+        ],
+        "weighted_jaccard": [
+          "target"
+        ],
+        "char_tfidf": [
+          "target"
+        ],
+        "encoder": [
+          "target"
+        ],
+        "rrf_three": [
+          "target"
+        ],
+        "rrf_with_encoder": [
+          "target"
+        ]
+      },
+      "predictions_top2": {
+        "lexical": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "lexical_title_group": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "bm25": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "weighted_jaccard": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "char_tfidf": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "encoder": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "rrf_three": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "rrf_with_encoder": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ]
+      },
+      "scores": {
+        "lexical": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.5
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.94118
+          }
+        ],
+        "lexical_title_group": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.35
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.95882
+          }
+        ],
+        "bm25": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 1.42849
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 15.48374
+          }
+        ],
+        "weighted_jaccard": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.13474
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.82647
+          }
+        ],
+        "char_tfidf": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.13409
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.89432
+          }
+        ],
+        "encoder": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.76827
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.87963
+          }
+        ]
+      }
+    },
+    {
+      "case": "extra_only_added",
+      "category": "condition",
+      "gold_ids": [
+        "target"
+      ],
+      "lexical_accepted": [
+        "target"
+      ],
+      "predictions_top1": {
+        "lexical": [
+          "target"
+        ],
+        "lexical_title_group": [
+          "target"
+        ],
+        "bm25": [
+          "target"
+        ],
+        "weighted_jaccard": [
+          "target"
+        ],
+        "char_tfidf": [
+          "target"
+        ],
+        "encoder": [
+          "target"
+        ],
+        "rrf_three": [
+          "target"
+        ],
+        "rrf_with_encoder": [
+          "target"
+        ]
+      },
+      "predictions_top2": {
+        "lexical": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "lexical_title_group": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "bm25": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "weighted_jaccard": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "char_tfidf": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "encoder": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "rrf_three": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "rrf_with_encoder": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ]
+      },
+      "scores": {
+        "lexical": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.42857
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.93333
+          }
+        ],
+        "lexical_title_group": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.3
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.95333
+          }
+        ],
+        "bm25": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 1.13086
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 15.72649
+          }
+        ],
+        "weighted_jaccard": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.10932
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.82925
+          }
+        ],
+        "char_tfidf": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.03094
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.85741
+          }
+        ],
+        "encoder": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.58011
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.90651
+          }
+        ]
+      }
+    },
+    {
+      "case": "extra_unless_added",
+      "category": "condition",
+      "gold_ids": [
+        "target"
+      ],
+      "lexical_accepted": [
+        "target"
+      ],
+      "predictions_top1": {
+        "lexical": [
+          "target"
+        ],
+        "lexical_title_group": [
+          "target"
+        ],
+        "bm25": [
+          "target"
+        ],
+        "weighted_jaccard": [
+          "target"
+        ],
+        "char_tfidf": [
+          "target"
+        ],
+        "encoder": [
+          "target"
+        ],
+        "rrf_three": [
+          "target"
+        ],
+        "rrf_with_encoder": [
+          "target"
+        ]
+      },
+      "predictions_top2": {
+        "lexical": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "lexical_title_group": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "bm25": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "weighted_jaccard": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "char_tfidf": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "encoder": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "rrf_three": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "rrf_with_encoder": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ]
+      },
+      "scores": {
+        "lexical": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.53333
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.8
+          }
+        ],
+        "lexical_title_group": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.37333
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.86
+          }
+        ],
+        "bm25": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 1.42849
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 12.72986
+          }
+        ],
+        "weighted_jaccard": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.15686
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.559
+          }
+        ],
+        "char_tfidf": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.15144
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.66885
+          }
+        ],
+        "encoder": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.74274
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.92864
+          }
+        ]
+      }
+    },
+    {
+      "case": "extra_shall_to_should",
+      "category": "modality",
+      "gold_ids": [
+        "target"
+      ],
+      "lexical_accepted": [
+        "target"
+      ],
+      "predictions_top1": {
+        "lexical": [
+          "target"
+        ],
+        "lexical_title_group": [
+          "target"
+        ],
+        "bm25": [
+          "target"
+        ],
+        "weighted_jaccard": [
+          "target"
+        ],
+        "char_tfidf": [
+          "target"
+        ],
+        "encoder": [
+          "target"
+        ],
+        "rrf_three": [
+          "target"
+        ],
+        "rrf_with_encoder": [
+          "target"
+        ]
+      },
+      "predictions_top2": {
+        "lexical": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "lexical_title_group": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "bm25": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "weighted_jaccard": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "char_tfidf": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "encoder": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "rrf_three": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "rrf_with_encoder": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ]
+      },
+      "scores": {
+        "lexical": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.46154
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.83333
+          }
+        ],
+        "lexical_title_group": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.32308
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.88333
+          }
+        ],
+        "bm25": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.68973
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 11.95085
+          }
+        ],
+        "weighted_jaccard": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.11558
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.68568
+          }
+        ],
+        "char_tfidf": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.04634
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.79786
+          }
+        ],
+        "encoder": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.59569
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.98209
+          }
+        ]
+      }
+    },
+    {
+      "case": "extra_shall_to_may",
+      "category": "modality",
+      "gold_ids": [
+        "target"
+      ],
+      "lexical_accepted": [
+        "target"
+      ],
+      "predictions_top1": {
+        "lexical": [
+          "target"
+        ],
+        "lexical_title_group": [
+          "target"
+        ],
+        "bm25": [
+          "target"
+        ],
+        "weighted_jaccard": [
+          "target"
+        ],
+        "char_tfidf": [
+          "target"
+        ],
+        "encoder": [
+          "target"
+        ],
+        "rrf_three": [
+          "target"
+        ],
+        "rrf_with_encoder": [
+          "target"
+        ]
+      },
+      "predictions_top2": {
+        "lexical": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "lexical_title_group": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "bm25": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "weighted_jaccard": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "char_tfidf": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "encoder": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "rrf_three": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "rrf_with_encoder": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ]
+      },
+      "scores": {
+        "lexical": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.42857
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.85714
+          }
+        ],
+        "lexical_title_group": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.3
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.9
+          }
+        ],
+        "bm25": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.68973
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 13.1321
+          }
+        ],
+        "weighted_jaccard": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.10332
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.74596
+          }
+        ],
+        "char_tfidf": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.07182
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.85435
+          }
+        ],
+        "encoder": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.71237
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.97877
+          }
+        ]
+      }
+    },
+    {
+      "case": "extra_unit_1000ps",
+      "category": "equivalent",
+      "gold_ids": [
+        "target"
+      ],
+      "lexical_accepted": [
+        "target"
+      ],
+      "predictions_top1": {
+        "lexical": [
+          "target"
+        ],
+        "lexical_title_group": [
+          "target"
+        ],
+        "bm25": [
+          "target"
+        ],
+        "weighted_jaccard": [
+          "target"
+        ],
+        "char_tfidf": [
+          "target"
+        ],
+        "encoder": [
+          "target"
+        ],
+        "rrf_three": [
+          "target"
+        ],
+        "rrf_with_encoder": [
+          "target"
+        ]
+      },
+      "predictions_top2": {
+        "lexical": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "lexical_title_group": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "bm25": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "weighted_jaccard": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "char_tfidf": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "encoder": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "rrf_three": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "rrf_with_encoder": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ]
+      },
+      "scores": {
+        "lexical": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.28571
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.71429
+          }
+        ],
+        "lexical_title_group": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.2
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.8
+          }
+        ],
+        "bm25": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.27517
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 9.91271
+          }
+        ],
+        "weighted_jaccard": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.04362
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.43981
+          }
+        ],
+        "char_tfidf": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.01226
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.79421
+          }
+        ],
+        "encoder": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.6612
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.88756
+          }
+        ]
+      }
+    },
+    {
+      "case": "extra_symbol_alias",
+      "category": "equivalent",
+      "gold_ids": [
+        "target"
+      ],
+      "lexical_accepted": [
+        "target"
+      ],
+      "predictions_top1": {
+        "lexical": [
+          "target"
+        ],
+        "lexical_title_group": [
+          "target"
+        ],
+        "bm25": [
+          "target"
+        ],
+        "weighted_jaccard": [
+          "target"
+        ],
+        "char_tfidf": [
+          "target"
+        ],
+        "encoder": [
+          "target"
+        ],
+        "rrf_three": [
+          "target"
+        ],
+        "rrf_with_encoder": [
+          "target"
+        ]
+      },
+      "predictions_top2": {
+        "lexical": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "lexical_title_group": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "bm25": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "weighted_jaccard": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "char_tfidf": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "encoder": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "rrf_three": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "rrf_with_encoder": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ]
+      },
+      "scores": {
+        "lexical": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.35294
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.55556
+          }
+        ],
+        "lexical_title_group": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.24706
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.68889
+          }
+        ],
+        "bm25": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.68973
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 12.12893
+          }
+        ],
+        "weighted_jaccard": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.07589
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.47458
+          }
+        ],
+        "char_tfidf": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.07634
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.44135
+          }
+        ],
+        "encoder": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.62679
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.93457
+          }
+        ]
+      }
+    },
+    {
+      "case": "extra_sentence_reorder",
+      "category": "equivalent",
+      "gold_ids": [
+        "target"
+      ],
+      "lexical_accepted": [
+        "target"
+      ],
+      "predictions_top1": {
+        "lexical": [
+          "target"
+        ],
+        "lexical_title_group": [
+          "target"
+        ],
+        "bm25": [
+          "target"
+        ],
+        "weighted_jaccard": [
+          "target"
+        ],
+        "char_tfidf": [
+          "target"
+        ],
+        "encoder": [
+          "target"
+        ],
+        "rrf_three": [
+          "target"
+        ],
+        "rrf_with_encoder": [
+          "target"
+        ]
+      },
+      "predictions_top2": {
+        "lexical": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "lexical_title_group": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "bm25": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "weighted_jaccard": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "char_tfidf": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "encoder": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "rrf_three": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "rrf_with_encoder": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ]
+      },
+      "scores": {
+        "lexical": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.28571
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.30769
+          }
+        ],
+        "lexical_title_group": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.2
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.51538
+          }
+        ],
+        "bm25": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.41456
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 11.28428
+          }
+        ],
+        "weighted_jaccard": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.04435
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.41296
+          }
+        ],
+        "char_tfidf": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.03718
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.61062
+          }
+        ],
+        "encoder": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.61602
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.92253
+          }
+        ]
+      }
+    },
+    {
+      "case": "extra_reference_renumber",
+      "category": "reference",
+      "gold_ids": [
+        "target"
+      ],
+      "lexical_accepted": [
+        "target"
+      ],
+      "predictions_top1": {
+        "lexical": [
+          "target"
+        ],
+        "lexical_title_group": [
+          "target"
+        ],
+        "bm25": [
+          "target"
+        ],
+        "weighted_jaccard": [
+          "target"
+        ],
+        "char_tfidf": [
+          "target"
+        ],
+        "encoder": [
+          "target"
+        ],
+        "rrf_three": [
+          "target"
+        ],
+        "rrf_with_encoder": [
+          "target"
+        ]
+      },
+      "predictions_top2": {
+        "lexical": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "lexical_title_group": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "bm25": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "weighted_jaccard": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "char_tfidf": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "encoder": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "rrf_three": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "rrf_with_encoder": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ]
+      },
+      "scores": {
+        "lexical": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.4
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.875
+          }
+        ],
+        "lexical_title_group": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.28
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.9125
+          }
+        ],
+        "bm25": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 1.13086
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 14.84747
+          }
+        ],
+        "weighted_jaccard": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.10812
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.78204
+          }
+        ],
+        "char_tfidf": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.03062
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.95876
+          }
+        ],
+        "encoder": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.57357
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.89327
+          }
+        ]
+      }
+    },
+    {
+      "case": "extra_reference_changed",
+      "category": "reference",
+      "gold_ids": [
+        "target"
+      ],
+      "lexical_accepted": [
+        "target"
+      ],
+      "predictions_top1": {
+        "lexical": [
+          "target"
+        ],
+        "lexical_title_group": [
+          "target"
+        ],
+        "bm25": [
+          "target"
+        ],
+        "weighted_jaccard": [
+          "target"
+        ],
+        "char_tfidf": [
+          "target"
+        ],
+        "encoder": [
+          "target"
+        ],
+        "rrf_three": [
+          "target"
+        ],
+        "rrf_with_encoder": [
+          "target"
+        ]
+      },
+      "predictions_top2": {
+        "lexical": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "lexical_title_group": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "bm25": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "weighted_jaccard": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "char_tfidf": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "encoder": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "rrf_three": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "rrf_with_encoder": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ]
+      },
+      "scores": {
+        "lexical": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.4
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.875
+          }
+        ],
+        "lexical_title_group": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.28
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.9125
+          }
+        ],
+        "bm25": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 1.13086
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 14.84747
+          }
+        ],
+        "weighted_jaccard": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.10812
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.7911
+          }
+        ],
+        "char_tfidf": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.03329
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.95697
+          }
+        ],
+        "encoder": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.58071
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.91518
+          }
+        ]
+      }
+    },
+    {
+      "case": "extra_object_swap",
+      "category": "object",
+      "gold_ids": [
+        "target"
+      ],
+      "lexical_accepted": [
+        "target"
+      ],
+      "predictions_top1": {
+        "lexical": [
+          "target"
+        ],
+        "lexical_title_group": [
+          "target"
+        ],
+        "bm25": [
+          "target"
+        ],
+        "weighted_jaccard": [
+          "target"
+        ],
+        "char_tfidf": [
+          "target"
+        ],
+        "encoder": [
+          "target"
+        ],
+        "rrf_three": [
+          "target"
+        ],
+        "rrf_with_encoder": [
+          "target"
+        ]
+      },
+      "predictions_top2": {
+        "lexical": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "lexical_title_group": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "bm25": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "weighted_jaccard": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "char_tfidf": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "encoder": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "rrf_three": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "rrf_with_encoder": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ]
+      },
+      "scores": {
+        "lexical": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.375
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.88889
+          }
+        ],
+        "lexical_title_group": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.2625
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.92222
+          }
+        ],
+        "bm25": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.68973
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 18.94294
+          }
+        ],
+        "weighted_jaccard": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.0737
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.85459
+          }
+        ],
+        "char_tfidf": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.03561
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.90245
+          }
+        ],
+        "encoder": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.71685
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.91029
+          }
+        ]
+      }
+    },
+    {
+      "case": "extra_subject_swap",
+      "category": "object",
+      "gold_ids": [
+        "target"
+      ],
+      "lexical_accepted": [
+        "target"
+      ],
+      "predictions_top1": {
+        "lexical": [
+          "target"
+        ],
+        "lexical_title_group": [
+          "target"
+        ],
+        "bm25": [
+          "target"
+        ],
+        "weighted_jaccard": [
+          "target"
+        ],
+        "char_tfidf": [
+          "target"
+        ],
+        "encoder": [
+          "target"
+        ],
+        "rrf_three": [
+          "target"
+        ],
+        "rrf_with_encoder": [
+          "target"
+        ]
+      },
+      "predictions_top2": {
+        "lexical": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "lexical_title_group": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "bm25": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "weighted_jaccard": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "char_tfidf": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "encoder": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "rrf_three": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "rrf_with_encoder": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ]
+      },
+      "scores": {
+        "lexical": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.15385
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.83333
+          }
+        ],
+        "lexical_title_group": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.10769
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.88333
+          }
+        ],
+        "bm25": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.27517
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 13.36571
+          }
+        ],
+        "weighted_jaccard": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.0445
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.63841
+          }
+        ],
+        "char_tfidf": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.01097
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.90424
+          }
+        ],
+        "encoder": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.54131
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.94789
+          }
+        ]
+      }
+    },
+    {
+      "case": "extra_moved_section",
+      "category": "move",
+      "gold_ids": [
+        "target"
+      ],
+      "lexical_accepted": [
+        "target"
+      ],
+      "predictions_top1": {
+        "lexical": [
+          "target"
+        ],
+        "lexical_title_group": [
+          "target"
+        ],
+        "bm25": [
+          "target"
+        ],
+        "weighted_jaccard": [
+          "target"
+        ],
+        "char_tfidf": [
+          "target"
+        ],
+        "encoder": [
+          "target"
+        ],
+        "rrf_three": [
+          "target"
+        ],
+        "rrf_with_encoder": [
+          "target"
+        ]
+      },
+      "predictions_top2": {
+        "lexical": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "lexical_title_group": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "bm25": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "weighted_jaccard": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "char_tfidf": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "encoder": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "rrf_three": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "rrf_with_encoder": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ]
+      },
+      "scores": {
+        "lexical": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.47059
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 1.0
+          }
+        ],
+        "lexical_title_group": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.32941
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.9
+          }
+        ],
+        "bm25": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 1.42849
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 20.44139
+          }
+        ],
+        "weighted_jaccard": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.11933
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 1.0
+          }
+        ],
+        "char_tfidf": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.1357
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 1.0
+          }
+        ],
+        "encoder": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.66625
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "case": "extra_format_only",
+      "category": "format",
+      "gold_ids": [
+        "target"
+      ],
+      "lexical_accepted": [
+        "target"
+      ],
+      "predictions_top1": {
+        "lexical": [
+          "target"
+        ],
+        "lexical_title_group": [
+          "target"
+        ],
+        "bm25": [
+          "target"
+        ],
+        "weighted_jaccard": [
+          "target"
+        ],
+        "char_tfidf": [
+          "target"
+        ],
+        "encoder": [
+          "target"
+        ],
+        "rrf_three": [
+          "target"
+        ],
+        "rrf_with_encoder": [
+          "target"
+        ]
+      },
+      "predictions_top2": {
+        "lexical": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "lexical_title_group": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "bm25": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "weighted_jaccard": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "char_tfidf": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "encoder": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "rrf_three": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "rrf_with_encoder": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ]
+      },
+      "scores": {
+        "lexical": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.375
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 1.0
+          }
+        ],
+        "lexical_title_group": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.2625
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 1.0
+          }
+        ],
+        "bm25": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.68973
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 11.88965
+          }
+        ],
+        "weighted_jaccard": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.09514
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 1.0
+          }
+        ],
+        "char_tfidf": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.05178
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 1.0
+          }
+        ],
+        "encoder": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.68843
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "case": "extra_list_to_sentence",
+      "category": "paraphrase",
+      "gold_ids": [
+        "target"
+      ],
+      "lexical_accepted": [
+        "target"
+      ],
+      "predictions_top1": {
+        "lexical": [
+          "target"
+        ],
+        "lexical_title_group": [
+          "target"
+        ],
+        "bm25": [
+          "target"
+        ],
+        "weighted_jaccard": [
+          "target"
+        ],
+        "char_tfidf": [
+          "target"
+        ],
+        "encoder": [
+          "target"
+        ],
+        "rrf_three": [
+          "target"
+        ],
+        "rrf_with_encoder": [
+          "target"
+        ]
+      },
+      "predictions_top2": {
+        "lexical": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "lexical_title_group": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "bm25": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "weighted_jaccard": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "char_tfidf": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "encoder": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "rrf_three": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ],
+        "rrf_with_encoder": [
+          [
+            "target"
+          ],
+          [
+            "other"
+          ]
+        ]
+      },
+      "scores": {
+        "lexical": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.125
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.42105
+          }
+        ],
+        "lexical_title_group": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.0875
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.59474
+          }
+        ],
+        "bm25": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.0
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 7.82371
+          }
+        ],
+        "weighted_jaccard": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.0
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.25115
+          }
+        ],
+        "char_tfidf": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.01921
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.49167
+          }
+        ],
+        "encoder": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.59004
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.89573
+          }
+        ]
+      }
+    },
+    {
+      "case": "extra_zero_distractor",
+      "category": "deletion",
+      "gold_ids": [],
+      "lexical_accepted": [],
+      "predictions_top1": {
+        "lexical": [
+          "other"
+        ],
+        "lexical_title_group": [
+          "other"
+        ],
+        "bm25": [
+          "other"
+        ],
+        "weighted_jaccard": [
+          "other"
+        ],
+        "char_tfidf": [
+          "other"
+        ],
+        "encoder": [
+          "other"
+        ],
+        "rrf_three": [
+          "other"
+        ],
+        "rrf_with_encoder": [
+          "other"
+        ]
+      },
+      "predictions_top2": {
+        "lexical": [
+          [
+            "other"
+          ]
+        ],
+        "lexical_title_group": [
+          [
+            "other"
+          ]
+        ],
+        "bm25": [
+          [
+            "other"
+          ]
+        ],
+        "weighted_jaccard": [
+          [
+            "other"
+          ]
+        ],
+        "char_tfidf": [
+          [
+            "other"
+          ]
+        ],
+        "encoder": [
+          [
+            "other"
+          ]
+        ],
+        "rrf_three": [
+          [
+            "other"
+          ]
+        ],
+        "rrf_with_encoder": [
+          [
+            "other"
+          ]
+        ]
+      },
+      "scores": {
+        "lexical": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.61538
+          }
+        ],
+        "lexical_title_group": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.43077
+          }
+        ],
+        "bm25": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 1.42849
+          }
+        ],
+        "weighted_jaccard": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.26557
+          }
+        ],
+        "char_tfidf": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.20385
+          }
+        ],
+        "encoder": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.6976
+          }
+        ]
+      }
+    },
+    {
+      "case": "extra_duplicate_template",
+      "category": "duplicate",
+      "gold_ids": [
+        "target"
+      ],
+      "lexical_accepted": [
+        "other"
+      ],
+      "predictions_top1": {
+        "lexical": [
+          "other"
+        ],
+        "lexical_title_group": [
+          "other"
+        ],
+        "bm25": [
+          "other"
+        ],
+        "weighted_jaccard": [
+          "other"
+        ],
+        "char_tfidf": [
+          "other"
+        ],
+        "encoder": [
+          "other"
+        ],
+        "rrf_three": [
+          "other"
+        ],
+        "rrf_with_encoder": [
+          "other"
+        ]
+      },
+      "predictions_top2": {
+        "lexical": [
+          [
+            "other"
+          ],
+          [
+            "target"
+          ]
+        ],
+        "lexical_title_group": [
+          [
+            "other"
+          ],
+          [
+            "target"
+          ]
+        ],
+        "bm25": [
+          [
+            "other"
+          ],
+          [
+            "target"
+          ]
+        ],
+        "weighted_jaccard": [
+          [
+            "other"
+          ],
+          [
+            "target"
+          ]
+        ],
+        "char_tfidf": [
+          [
+            "other"
+          ],
+          [
+            "target"
+          ]
+        ],
+        "encoder": [
+          [
+            "other"
+          ],
+          [
+            "target"
+          ]
+        ],
+        "rrf_three": [
+          [
+            "other"
+          ],
+          [
+            "target"
+          ]
+        ],
+        "rrf_with_encoder": [
+          [
+            "other"
+          ],
+          [
+            "target"
+          ]
+        ]
+      },
+      "scores": {
+        "lexical": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 1.0
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.54545
+          }
+        ],
+        "lexical_title_group": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 0.7
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.68182
+          }
+        ],
+        "bm25": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 14.94273
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 5.87215
+          }
+        ],
+        "weighted_jaccard": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 1.0
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.244
+          }
+        ],
+        "char_tfidf": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 1.0
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.36547
+          }
+        ],
+        "encoder": [
+          {
+            "ids": [
+              "other"
+            ],
+            "score": 1.0
+          },
+          {
+            "ids": [
+              "target"
+            ],
+            "score": 0.97602
+          }
+        ]
+      }
+    },
+    {
+      "case": "extra_split_three",
+      "category": "split",
+      "gold_ids": [
+        "a",
+        "b",
+        "c"
+      ],
+      "lexical_accepted": [
+        "a",
+        "b",
+        "c"
+      ],
+      "predictions_top1": {
+        "lexical": [
+          "a",
+          "b",
+          "c"
+        ],
+        "lexical_title_group": [
+          "a",
+          "b",
+          "c"
+        ],
+        "bm25": [
+          "a",
+          "b",
+          "c"
+        ],
+        "weighted_jaccard": [
+          "a",
+          "b",
+          "c"
+        ],
+        "char_tfidf": [
+          "a",
+          "b",
+          "c"
+        ],
+        "encoder": [
+          "a",
+          "b",
+          "c"
+        ],
+        "rrf_three": [
+          "a",
+          "b",
+          "c"
+        ],
+        "rrf_with_encoder": [
+          "a",
+          "b",
+          "c"
+        ]
+      },
+      "predictions_top2": {
+        "lexical": [
+          [
+            "a",
+            "b",
+            "c"
+          ],
+          [
+            "a",
+            "b"
+          ]
+        ],
+        "lexical_title_group": [
+          [
+            "a",
+            "b",
+            "c"
+          ],
+          [
+            "a",
+            "b"
+          ]
+        ],
+        "bm25": [
+          [
+            "a",
+            "b",
+            "c"
+          ],
+          [
+            "b",
+            "c"
+          ]
+        ],
+        "weighted_jaccard": [
+          [
+            "a",
+            "b",
+            "c"
+          ],
+          [
+            "b",
+            "c"
+          ]
+        ],
+        "char_tfidf": [
+          [
+            "a",
+            "b",
+            "c"
+          ],
+          [
+            "b",
+            "c"
+          ]
+        ],
+        "encoder": [
+          [
+            "a",
+            "b",
+            "c"
+          ],
+          [
+            "a",
+            "b"
+          ]
+        ],
+        "rrf_three": [
+          [
+            "a",
+            "b",
+            "c"
+          ],
+          [
+            "b",
+            "c"
+          ]
+        ],
+        "rrf_with_encoder": [
+          [
+            "a",
+            "b",
+            "c"
+          ],
+          [
+            "a",
+            "b"
+          ]
+        ]
+      },
+      "scores": {
+        "lexical": [
+          {
+            "ids": [
+              "a"
+            ],
+            "score": 0.5
+          },
+          {
+            "ids": [
+              "b"
+            ],
+            "score": 0.5
+          },
+          {
+            "ids": [
+              "c"
+            ],
+            "score": 0.5
+          },
+          {
+            "ids": [
+              "a",
+              "b"
+            ],
+            "score": 0.8
+          },
+          {
+            "ids": [
+              "b",
+              "c"
+            ],
+            "score": 0.8
+          },
+          {
+            "ids": [
+              "a",
+              "b",
+              "c"
+            ],
+            "score": 1.0
+          }
+        ],
+        "lexical_title_group": [
+          {
+            "ids": [
+              "a"
+            ],
+            "score": 0.65
+          },
+          {
+            "ids": [
+              "b"
+            ],
+            "score": 0.65
+          },
+          {
+            "ids": [
+              "c"
+            ],
+            "score": 0.65
+          },
+          {
+            "ids": [
+              "a",
+              "b"
+            ],
+            "score": 0.74
+          },
+          {
+            "ids": [
+              "b",
+              "c"
+            ],
+            "score": 0.74
+          },
+          {
+            "ids": [
+              "a",
+              "b",
+              "c"
+            ],
+            "score": 0.81
+          }
+        ],
+        "bm25": [
+          {
+            "ids": [
+              "a"
+            ],
+            "score": 10.62291
+          },
+          {
+            "ids": [
+              "b"
+            ],
+            "score": 9.83194
+          },
+          {
+            "ids": [
+              "c"
+            ],
+            "score": 10.87249
+          },
+          {
+            "ids": [
+              "a",
+              "b"
+            ],
+            "score": 14.58933
+          },
+          {
+            "ids": [
+              "b",
+              "c"
+            ],
+            "score": 14.7866
+          },
+          {
+            "ids": [
+              "a",
+              "b",
+              "c"
+            ],
+            "score": 17.77823
+          }
+        ],
+        "weighted_jaccard": [
+          {
+            "ids": [
+              "a"
+            ],
+            "score": 0.44895
+          },
+          {
+            "ids": [
+              "b"
+            ],
+            "score": 0.42749
+          },
+          {
+            "ids": [
+              "c"
+            ],
+            "score": 0.45561
+          },
+          {
+            "ids": [
+              "a",
+              "b"
+            ],
+            "score": 0.71042
+          },
+          {
+            "ids": [
+              "b",
+              "c"
+            ],
+            "score": 0.71707
+          },
+          {
+            "ids": [
+              "a",
+              "b",
+              "c"
+            ],
+            "score": 1.0
+          }
+        ],
+        "char_tfidf": [
+          {
+            "ids": [
+              "a"
+            ],
+            "score": 0.58264
+          },
+          {
+            "ids": [
+              "b"
+            ],
+            "score": 0.58131
+          },
+          {
+            "ids": [
+              "c"
+            ],
+            "score": 0.65748
+          },
+          {
+            "ids": [
+              "a",
+              "b"
+            ],
+            "score": 0.80611
+          },
+          {
+            "ids": [
+              "b",
+              "c"
+            ],
+            "score": 0.86986
+          },
+          {
+            "ids": [
+              "a",
+              "b",
+              "c"
+            ],
+            "score": 1.0
+          }
+        ],
+        "encoder": [
+          {
+            "ids": [
+              "a"
+            ],
+            "score": 0.89898
+          },
+          {
+            "ids": [
+              "b"
+            ],
+            "score": 0.75614
+          },
+          {
+            "ids": [
+              "c"
+            ],
+            "score": 0.74112
+          },
+          {
+            "ids": [
+              "a",
+              "b"
+            ],
+            "score": 0.94283
+          },
+          {
+            "ids": [
+              "b",
+              "c"
+            ],
+            "score": 0.82031
+          },
+          {
+            "ids": [
+              "a",
+              "b",
+              "c"
+            ],
+            "score": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "case": "extra_split_two",
+      "category": "split",
+      "gold_ids": [
+        "a",
+        "b"
+      ],
+      "lexical_accepted": [
+        "a",
+        "b"
+      ],
+      "predictions_top1": {
+        "lexical": [
+          "a",
+          "b"
+        ],
+        "lexical_title_group": [
+          "a",
+          "b"
+        ],
+        "bm25": [
+          "a",
+          "b"
+        ],
+        "weighted_jaccard": [
+          "a",
+          "b"
+        ],
+        "char_tfidf": [
+          "a",
+          "b"
+        ],
+        "encoder": [
+          "a",
+          "b"
+        ],
+        "rrf_three": [
+          "a",
+          "b"
+        ],
+        "rrf_with_encoder": [
+          "a",
+          "b"
+        ]
+      },
+      "predictions_top2": {
+        "lexical": [
+          [
+            "a",
+            "b"
+          ],
+          [
+            "a"
+          ]
+        ],
+        "lexical_title_group": [
+          [
+            "a",
+            "b"
+          ],
+          [
+            "a"
+          ]
+        ],
+        "bm25": [
+          [
+            "a",
+            "b"
+          ],
+          [
+            "b"
+          ]
+        ],
+        "weighted_jaccard": [
+          [
+            "a",
+            "b"
+          ],
+          [
+            "b"
+          ]
+        ],
+        "char_tfidf": [
+          [
+            "a",
+            "b"
+          ],
+          [
+            "a"
+          ]
+        ],
+        "encoder": [
+          [
+            "a",
+            "b"
+          ],
+          [
+            "b"
+          ]
+        ],
+        "rrf_three": [
+          [
+            "a",
+            "b"
+          ],
+          [
+            "a"
+          ]
+        ],
+        "rrf_with_encoder": [
+          [
+            "a",
+            "b"
+          ],
+          [
+            "a"
+          ]
+        ]
+      },
+      "scores": {
+        "lexical": [
+          {
+            "ids": [
+              "a"
+            ],
+            "score": 0.66667
+          },
+          {
+            "ids": [
+              "b"
+            ],
+            "score": 0.66667
+          },
+          {
+            "ids": [
+              "a",
+              "b"
+            ],
+            "score": 1.0
+          }
+        ],
+        "lexical_title_group": [
+          {
+            "ids": [
+              "a"
+            ],
+            "score": 0.76667
+          },
+          {
+            "ids": [
+              "b"
+            ],
+            "score": 0.76667
+          },
+          {
+            "ids": [
+              "a",
+              "b"
+            ],
+            "score": 0.88
+          }
+        ],
+        "bm25": [
+          {
+            "ids": [
+              "a"
+            ],
+            "score": 16.67559
+          },
+          {
+            "ids": [
+              "b"
+            ],
+            "score": 17.17193
+          },
+          {
+            "ids": [
+              "a",
+              "b"
+            ],
+            "score": 21.1079
+          }
+        ],
+        "weighted_jaccard": [
+          {
+            "ids": [
+              "a"
+            ],
+            "score": 0.71163
+          },
+          {
+            "ids": [
+              "b"
+            ],
+            "score": 0.72559
+          },
+          {
+            "ids": [
+              "a",
+              "b"
+            ],
+            "score": 1.0
+          }
+        ],
+        "char_tfidf": [
+          {
+            "ids": [
+              "a"
+            ],
+            "score": 0.88446
+          },
+          {
+            "ids": [
+              "b"
+            ],
+            "score": 0.8839
+          },
+          {
+            "ids": [
+              "a",
+              "b"
+            ],
+            "score": 1.0
+          }
+        ],
+        "encoder": [
+          {
+            "ids": [
+              "a"
+            ],
+            "score": 0.91034
+          },
+          {
+            "ids": [
+              "b"
+            ],
+            "score": 0.92085
+          },
+          {
+            "ids": [
+              "a",
+              "b"
+            ],
+            "score": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "case": "real_D-scope-dual",
+      "category": "real_scope",
+      "gold_ids": [
+        "E-scope-dual"
+      ],
+      "lexical_accepted": [
+        "E-scope-dual"
+      ],
+      "predictions_top1": {
+        "lexical": [
+          "E-scope-dual"
+        ],
+        "lexical_title_group": [
+          "E-scope-dual"
+        ],
+        "bm25": [
+          "E-scope-dual"
+        ],
+        "weighted_jaccard": [
+          "E-scope-dual"
+        ],
+        "char_tfidf": [
+          "E-scope-dual"
+        ],
+        "encoder": [
+          "E-scope-dual"
+        ],
+        "rrf_three": [
+          "E-scope-dual"
+        ],
+        "rrf_with_encoder": [
+          "E-scope-dual"
+        ]
+      },
+      "predictions_top2": {
+        "lexical": [
+          [
+            "E-scope-dual"
+          ],
+          [
+            "E-scope-single"
+          ]
+        ],
+        "lexical_title_group": [
+          [
+            "E-scope-dual"
+          ],
+          [
+            "E-scope-single"
+          ]
+        ],
+        "bm25": [
+          [
+            "E-scope-dual"
+          ],
+          [
+            "E-scope-dual",
+            "E-scope-single"
+          ]
+        ],
+        "weighted_jaccard": [
+          [
+            "E-scope-dual"
+          ],
+          [
+            "E-scope-dual",
+            "E-scope-single"
+          ]
+        ],
+        "char_tfidf": [
+          [
+            "E-scope-dual"
+          ],
+          [
+            "E-scope-dual",
+            "E-scope-single"
+          ]
+        ],
+        "encoder": [
+          [
+            "E-scope-dual"
+          ],
+          [
+            "E-scope-dual",
+            "E-scope-single"
+          ]
+        ],
+        "rrf_three": [
+          [
+            "E-scope-dual"
+          ],
+          [
+            "E-scope-dual",
+            "E-scope-single"
+          ]
+        ],
+        "rrf_with_encoder": [
+          [
+            "E-scope-dual"
+          ],
+          [
+            "E-scope-dual",
+            "E-scope-single"
+          ]
+        ]
+      },
+      "scores": {
+        "lexical": [
+          {
+            "ids": [
+              "E-scope-dual"
+            ],
+            "score": 0.90909
+          },
+          {
+            "ids": [
+              "E-scope-single"
+            ],
+            "score": 0.66667
+          },
+          {
+            "ids": [
+              "E-scope-dual",
+              "E-scope-single"
+            ],
+            "score": 0.625
+          }
+        ],
+        "lexical_title_group": [
+          {
+            "ids": [
+              "E-scope-dual"
+            ],
+            "score": 0.93636
+          },
+          {
+            "ids": [
+              "E-scope-single"
+            ],
+            "score": 0.76667
+          },
+          {
+            "ids": [
+              "E-scope-dual",
+              "E-scope-single"
+            ],
+            "score": 0.6175
+          }
+        ],
+        "bm25": [
+          {
+            "ids": [
+              "E-scope-dual"
+            ],
+            "score": 19.62852
+          },
+          {
+            "ids": [
+              "E-scope-single"
+            ],
+            "score": 14.63361
+          },
+          {
+            "ids": [
+              "E-scope-dual",
+              "E-scope-single"
+            ],
+            "score": 19.02783
+          }
+        ],
+        "weighted_jaccard": [
+          {
+            "ids": [
+              "E-scope-dual"
+            ],
+            "score": 0.77837
+          },
+          {
+            "ids": [
+              "E-scope-single"
+            ],
+            "score": 0.44844
+          },
+          {
+            "ids": [
+              "E-scope-dual",
+              "E-scope-single"
+            ],
+            "score": 0.60074
+          }
+        ],
+        "char_tfidf": [
+          {
+            "ids": [
+              "E-scope-dual"
+            ],
+            "score": 0.91977
+          },
+          {
+            "ids": [
+              "E-scope-single"
+            ],
+            "score": 0.65654
+          },
+          {
+            "ids": [
+              "E-scope-dual",
+              "E-scope-single"
+            ],
+            "score": 0.84283
+          }
+        ],
+        "encoder": [
+          {
+            "ids": [
+              "E-scope-dual"
+            ],
+            "score": 0.98213
+          },
+          {
+            "ids": [
+              "E-scope-single"
+            ],
+            "score": 0.85602
+          },
+          {
+            "ids": [
+              "E-scope-dual",
+              "E-scope-single"
+            ],
+            "score": 0.95878
+          }
+        ]
+      }
+    },
+    {
+      "case": "real_D-scope-single",
+      "category": "real_scope",
+      "gold_ids": [
+        "E-scope-single"
+      ],
+      "lexical_accepted": [
+        "E-scope-single"
+      ],
+      "predictions_top1": {
+        "lexical": [
+          "E-scope-single"
+        ],
+        "lexical_title_group": [
+          "E-scope-single"
+        ],
+        "bm25": [
+          "E-scope-dual",
+          "E-scope-single"
+        ],
+        "weighted_jaccard": [
+          "E-scope-single"
+        ],
+        "char_tfidf": [
+          "E-scope-single"
+        ],
+        "encoder": [
+          "E-scope-single"
+        ],
+        "rrf_three": [
+          "E-scope-single"
+        ],
+        "rrf_with_encoder": [
+          "E-scope-single"
+        ]
+      },
+      "predictions_top2": {
+        "lexical": [
+          [
+            "E-scope-single"
+          ],
+          [
+            "E-scope-dual"
+          ]
+        ],
+        "lexical_title_group": [
+          [
+            "E-scope-single"
+          ],
+          [
+            "E-scope-dual"
+          ]
+        ],
+        "bm25": [
+          [
+            "E-scope-dual",
+            "E-scope-single"
+          ],
+          [
+            "E-scope-single"
+          ]
+        ],
+        "weighted_jaccard": [
+          [
+            "E-scope-single"
+          ],
+          [
+            "E-scope-dual",
+            "E-scope-single"
+          ]
+        ],
+        "char_tfidf": [
+          [
+            "E-scope-single"
+          ],
+          [
+            "E-scope-dual",
+            "E-scope-single"
+          ]
+        ],
+        "encoder": [
+          [
+            "E-scope-single"
+          ],
+          [
+            "E-scope-dual",
+            "E-scope-single"
+          ]
+        ],
+        "rrf_three": [
+          [
+            "E-scope-single"
+          ],
+          [
+            "E-scope-dual",
+            "E-scope-single"
+          ]
+        ],
+        "rrf_with_encoder": [
+          [
+            "E-scope-single"
+          ],
+          [
+            "E-scope-dual",
+            "E-scope-single"
+          ]
+        ]
+      },
+      "scores": {
+        "lexical": [
+          {
+            "ids": [
+              "E-scope-dual"
+            ],
+            "score": 0.7619
+          },
+          {
+            "ids": [
+              "E-scope-single"
+            ],
+            "score": 0.9
+          },
+          {
+            "ids": [
+              "E-scope-dual",
+              "E-scope-single"
+            ],
+            "score": 0.58065
+          }
+        ],
+        "lexical_title_group": [
+          {
+            "ids": [
+              "E-scope-dual"
+            ],
+            "score": 0.83333
+          },
+          {
+            "ids": [
+              "E-scope-single"
+            ],
+            "score": 0.93
+          },
+          {
+            "ids": [
+              "E-scope-dual",
+              "E-scope-single"
+            ],
+            "score": 0.58645
+          }
+        ],
+        "bm25": [
+          {
+            "ids": [
+              "E-scope-dual"
+            ],
+            "score": 16.44827
+          },
+          {
+            "ids": [
+              "E-scope-single"
+            ],
+            "score": 19.77121
+          },
+          {
+            "ids": [
+              "E-scope-dual",
+              "E-scope-single"
+            ],
+            "score": 20.2151
+          }
+        ],
+        "weighted_jaccard": [
+          {
+            "ids": [
+              "E-scope-dual"
+            ],
+            "score": 0.59325
+          },
+          {
+            "ids": [
+              "E-scope-single"
+            ],
+            "score": 0.78691
+          },
+          {
+            "ids": [
+              "E-scope-dual",
+              "E-scope-single"
+            ],
+            "score": 0.70777
+          }
+        ],
+        "char_tfidf": [
+          {
+            "ids": [
+              "E-scope-dual"
+            ],
+            "score": 0.75051
+          },
+          {
+            "ids": [
+              "E-scope-single"
+            ],
+            "score": 0.90462
+          },
+          {
+            "ids": [
+              "E-scope-dual",
+              "E-scope-single"
+            ],
+            "score": 0.89267
+          }
+        ],
+        "encoder": [
+          {
+            "ids": [
+              "E-scope-dual"
+            ],
+            "score": 0.90264
+          },
+          {
+            "ids": [
+              "E-scope-single"
+            ],
+            "score": 0.97272
+          },
+          {
+            "ids": [
+              "E-scope-dual",
+              "E-scope-single"
+            ],
+            "score": 0.9219
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,5 +1,7 @@
 # LPDDR6 JEDEC 正文差异分析方案
 
+**新增算法对照：[BM25、加权 Jaccard、字符 TF-IDF 与排序融合](ALTERNATIVE_METHODS.zh-CN.md)**。与原词面方法和本地 encoder 在同一批 45 例上对照，并附全部实现与逐例结果。
+
 **公司内交接入口：[仓库使用与当前边界](HANDOFF.zh-CN.md)**。按已运行、仅设计、待接入真实数据列出算法、结果、复现命令和下一步。
 
 **新增扩大测试：[45 例匹配压力测试](EXPANDED_BENCHMARK.zh-CN.md)**：28 个新增合成难例、原 15 例及 2 组真实 JEDEC Scope 短片段，附逐例结果。只评估人工候选池内的对应内容匹配，尚非完整 LPDDR6 文档评测。
